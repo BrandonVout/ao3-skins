@@ -313,6 +313,7 @@ a.cloud3,
 }
 
 .actions a,
+.actions a:link,
 .action,
 .actions input,
 input[type="submit"],
@@ -322,7 +323,8 @@ button,
 span.unread,
 .replied,
 span.claimed {
-	border-bottom-color: #657b83;
+	/*border-bottom-color: #657b83;*/
+	border-color: #586e75;
 }
 
 .ui-sortable li:hover,
@@ -502,6 +504,7 @@ input[type="text"],
 select {
 	background: #002b36;
 	color: #839496;
+	border-color: #586e75;
 }
 
 #workskin strong,
