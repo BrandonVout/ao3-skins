@@ -321,6 +321,13 @@ span.claimed {
 	border-color: #93a1a1;
 }
 
+.actions a:hover,
+.actions input:hover,
+input[type="submit"]:hover,
+button:hover {
+	border-color: #eee8d5;
+}
+
 .ui-sortable li:hover,
 .secondary,
 .wrapper,
