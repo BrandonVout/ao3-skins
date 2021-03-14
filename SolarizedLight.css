@@ -113,8 +113,16 @@ li.relationships a,
 	color: #657b83;
 }
 
+a {
+	color: #586e75;
+}
+
 a:hover {
-	color: #839496;
+	color: #657b83;
+}
+
+a:visited {
+	color: #93a1a1;
 }
 
 #login-block,
@@ -312,13 +320,15 @@ a.cloud3,
 .actions input,
 input[type="submit"],
 button,
-.current,
 .actions label,
 span.unread,
 .replied,
 span.claimed {
-	/*border-bottom-color: #839496;*/
 	border-color: #93a1a1;
+}
+
+.current {
+	border-bottom-color: #93a1a1;
 }
 
 .actions a:hover,
