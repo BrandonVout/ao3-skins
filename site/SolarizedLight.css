@@ -1,21 +1,4 @@
 /* Adapted from Colour Flip Combos skin by AO3 - https://archiveofourown.org/skins/944 */
-/*
-#1: bright #f4effc, #fff
-#2: light #eee, #999, #ccc
-#3: mid #ccc, #444, #666
-#4: dark #ddd, #aaa, #222
-#5: darkest #000, #111, #333
-and then a KEY COLOUR:
-#K: #900
-
-#1: bright #fdf6e3, #fdf6e3
-#2: light #eee8d5, #839496, #eee8d5
-#3: mid #eee8d5, #657b83, #657b83
-#4: dark #eee8d5, #839496, #657b83
-#5: darkest #073642, #93a1a1, #657b83
-and then a KEY COLOUR:
-#K: #586e75
- */
 
 ::-moz-selection {
 	background: #eee8d5;
