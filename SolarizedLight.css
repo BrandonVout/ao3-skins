@@ -400,8 +400,6 @@ a.tag:hover {
 #header form,
 #header p,
 #dashboard a:hover,
-.actions a:hover,
-.actions input:hover,
 .delete a,
 span.delete,
 span.unread,
@@ -421,6 +419,11 @@ a.work,
 a.cloud7,
 a.cloud8 {
 	color: #586e75;
+}
+
+.actions a:hover,
+.actions input:hover {
+	color: #93a1a1;
 }
 
 #dashboard.own,

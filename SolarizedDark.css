@@ -90,7 +90,7 @@ form ul.notes {
 
 #header .dropdown .menu a:hover,
 #header .dropdown .menu a:focus {
-	background: rgba(255, 255, 255, 0.25);
+	background: rgba(255, 255, 255, 0.05);
 }
 
 #login .open a:hover,
@@ -406,8 +406,6 @@ a.tag:hover {
 #header form,
 #header p,
 #dashboard a:hover,
-.actions a:hover,
-.actions input:hover,
 .delete a,
 span.delete,
 span.unread,
@@ -427,6 +425,11 @@ a.work,
 a.cloud7,
 a.cloud8 {
 	color: #93a1a1;
+}
+
+.actions a:hover,
+.actions input:hover {
+	color: #586e75;
 }
 
 #dashboard.own,
