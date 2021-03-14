@@ -359,7 +359,6 @@ span.delete {
 #header .open a,
 a,
 a:link,
-a:visited:hover,
 #dashboard a,
 #dashboard span,
 .autocomplete div.dropdown ul,
@@ -373,6 +372,14 @@ a.tag,
 a.cloud1,
 a.cloud2 {
 	color: #93a1a1;
+}
+
+a:visited:hover {
+	color: #657b83;
+}
+
+a.tag:visited:hover {
+	color: #eee8d5;
 }
 
 #header .menu li,

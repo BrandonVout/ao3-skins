@@ -81,11 +81,14 @@ form ul.notes {
 }
 
 #header .primary a,
-#header h2,
+#header h2 {
+	color: #002b36;
+}
+
 #footer ul,
 #footer a,
 #footer .heading {
-	color: #002b36;
+	color: #839496;
 }
 
 #header .dropdown .menu a:hover,
@@ -365,7 +368,6 @@ span.delete {
 #header .open a,
 a,
 a:link,
-a:visited:hover,
 #dashboard a,
 #dashboard span,
 .autocomplete div.dropdown ul,
@@ -381,6 +383,14 @@ a.cloud2 {
 	color: #586e75;
 }
 
+a:visited:hover {
+	color: #839496;
+}
+
+a.tag:visited:hover {
+	color: #073642;
+}
+
 #header .menu li,
 .userstuff h3 {
 	border-color: #839496;
@@ -394,11 +404,14 @@ a.current,
 }
 
 #header .primary,
-#footer,
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
 	background: #93a1a1;
+}
+
+#footer {
+	background: #073642;
 }
 
 #header .heading a,
