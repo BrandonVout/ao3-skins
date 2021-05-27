@@ -1,0 +1,13 @@
+/* Improves readability of workskin and work blurbs on desktop without affecting mobile browsers */
+
+ol.work,
+ul.bookmark,
+ol.bookmark {
+	font-size: 15px;
+}
+
+#workskin {
+	font-size: 16px;
+	max-width: 640px;
+	/* max-width is better for mobile than margin setting in AO3's Wizard */
+}
