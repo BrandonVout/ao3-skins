@@ -1,8 +1,7 @@
 /* Improves readability of workskin and work blurbs on desktop without affecting mobile browsers */
 
-ol.work,
-ul.bookmark,
-ol.bookmark {
+li.work,
+li.bookmark {
 	font-size: 15px;
 }
 
