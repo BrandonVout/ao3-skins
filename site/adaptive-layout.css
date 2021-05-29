@@ -1,7 +1,7 @@
 /* Improves readability of workskin and work blurbs on desktop without affecting mobile browsers */
 
 li.work,
-li.comment,
+li.comment blockquote.userstuff,
 li.bookmark {
 	font-size: 15px;
 }
