@@ -10,7 +10,7 @@
 }
 
 #workskin .dropcap {
-	font-family: 'Noto Serif', 'Droid Serif', Georgia, Palatino, serif;
+	font-family: 'Noto Serif', 'Droid Serif', 'Roboto Slab', Georgia, Palatino, serif;
 	font-size: 3em;
 }
 
@@ -32,15 +32,15 @@
 }
 
 #workskin .font-serif {
-	font-family: Literata, Bookerly, 'Noto Serif', 'Droid Serif', Georgia, Palatino, serif;
+	font-family: Literata, Bookerly, 'Noto Serif', 'Droid Serif', 'Roboto Slab', Georgia, Palatino, serif;
 }
 
 #workskin .font-sansserif {
-	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #workskin .font-monospace {
-	font-family: 'Noto Mono', 'Droid Sans Mono', Menlo, Monaco, Consolas, 'Courier New', Courier, monospace;
+	font-family: 'Noto Mono', 'Droid Sans Mono', 'Roboto Mono', Menlo, Monaco, Consolas, 'Courier New', Courier, monospace;
 }
 
 #workskin .font-big {
