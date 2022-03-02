@@ -2,6 +2,6 @@
 
 #workskin {
 	max-width: 45em;
-	/*max-width: 640px;*/
+	/*max-width: 40em;*/ /* better for size 16px fonts */
 	/* max-width is better for mobile than margin setting in AO3's Wizard */
 }
