@@ -1,9 +1,11 @@
 /* Created by Brandon Vout. My preferred font settings. */
 
+/* site font */
 body {
 	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* font for stories and summaries */
 #workskin,
 blockquote.summary p,
 blockquote.userstuff p,
@@ -11,17 +13,20 @@ li.comment blockquote.userstuff {
 	font-family: Literata, Bookerly, 'Noto Serif', 'Droid Serif', 'Roboto Slab', Georgia, Palatino, serif;
 }
 
+/* font size for work boxes (tags, title, author, etc.) */
 li.comment blockquote.userstuff,
 li.work,
 ul.tags {
 	font-size: 14px;
 }
 
+/* font size for summaries in works and bookmarks */
 blockquote.summary p,
 blockquote.userstuff p {
 	font-size: 15px;
 }
 
+/* story font size */
 #workskin {
 	font-size: 16px;
 }
