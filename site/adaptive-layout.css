@@ -1,6 +1,7 @@
 /* Created by Brandon Vout. Improves readability of workskin and work blurbs on desktop without affecting mobile browsers */
 
 #workskin {
-	max-width: 640px;
+	max-width: 45em;
+	/*max-width: 640px;*/
 	/* max-width is better for mobile than margin setting in AO3's Wizard */
 }
