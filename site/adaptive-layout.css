@@ -1,13 +1,6 @@
-/* Improves readability of workskin and work blurbs on desktop without affecting mobile browsers */
-
-li.work,
-li.comment blockquote.userstuff,
-li.bookmark {
-	font-size: 15px;
-}
+/* Created by Brandon Vout. Improves readability of workskin and work blurbs on desktop without affecting mobile browsers */
 
 #workskin {
-	font-size: 16px;
 	max-width: 640px;
 	/* max-width is better for mobile than margin setting in AO3's Wizard */
 }

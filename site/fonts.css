@@ -1,0 +1,27 @@
+/* Created by Brandon Vout. My preferred font settings. */
+
+body {
+	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#workskin,
+blockquote.summary p,
+blockquote.userstuff p,
+li.comment blockquote.userstuff {
+	font-family: Literata, Bookerly, 'Noto Serif', 'Droid Serif', 'Roboto Slab', Georgia, Palatino, serif;
+}
+
+li.comment blockquote.userstuff,
+li.work,
+ul.tags {
+	font-size: 14px;
+}
+
+blockquote.summary p,
+blockquote.userstuff p {
+	font-size: 15px;
+}
+
+#workskin {
+	font-size: 16px;
+}
