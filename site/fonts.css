@@ -1,11 +1,17 @@
 /* Created by Brandon Vout. My preferred font settings. */
 
-/* site font */
+/*
+Site font
+Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
+*/
 body {
 	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* font for stories and summaries */
+/*
+Font for stories and summaries
+Order: E-Reader (Google Books, Kindle), Linux, Android, macOS/iOS, Windows, web safe, browser default
+*/
 #workskin,
 blockquote.summary p,
 blockquote.userstuff p,
@@ -13,20 +19,20 @@ li.comment blockquote.userstuff {
 	font-family: Literata, Bookerly, 'Noto Serif', 'Droid Serif', 'Roboto Slab', Georgia, Palatino, serif;
 }
 
-/* font size for work boxes (tags, title, author, etc.) */
+/* Font size for work boxes (tags, title, author, etc.) */
 li.comment blockquote.userstuff,
 li.work,
 ul.tags {
 	font-size: 14px;
 }
 
-/* font size for summaries in works and bookmarks */
+/* Font size for summaries in works and bookmarks */
 blockquote.summary p,
 blockquote.userstuff p {
 	font-size: 15px;
 }
 
-/* story font size */
+/* Story font size */
 #workskin {
 	font-size: 16px;
 }

@@ -31,14 +31,17 @@
 	border: 1px solid;
 }
 
+/* Order: E-Reader (Google Books, Kindle), Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-serif {
 	font-family: Literata, Bookerly, 'Noto Serif', 'Droid Serif', 'Roboto Slab', Georgia, Palatino, serif;
 }
 
+/* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-sansserif {
 	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-monospace {
 	font-family: 'Noto Mono', 'Droid Sans Mono', 'Roboto Mono', Menlo, Monaco, Consolas, 'Courier New', Courier, monospace;
 }
