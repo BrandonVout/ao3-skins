@@ -1,13 +1,20 @@
 /* Adapted from Colour Flip Combos skin by AO3 - https://archiveofourown.org/skins/944 */
 
-::-moz-selection {
-	background: #073642;
-}
-
+/*
+==================
+Selection Settings
+==================
+*/
+::-moz-selection, /* Firefox legacy selection */
 ::selection {
 	background: #073642;
 }
 
+/*
+===============
+Page Background
+===============
+*/
 body,
 th,
 tr:hover,
@@ -31,6 +38,11 @@ textarea:focus,
 	background: #002b36;
 }
 
+/*
+====================================
+Tag Link & Dropdown Hover Text Color
+====================================
+*/
 #header h2,
 .autocomplete .dropdown ul li:hover,
 li.selected,
@@ -38,6 +50,11 @@ a.tag:hover {
 	color: #002b36;
 }
 
+/*
+===========================
+Button & Field Border Color
+===========================
+*/
 #small_login,
 tbody tr,
 thead td,
@@ -58,27 +75,52 @@ a.current,
 	border-color: #002b36;
 }
 
+/*
+======================
+Form Notice Box Shadow
+======================
+*/
 form .notice,
 form ul.notes {
 	box-shadow: 0px 0 3px #002b36;
 }
 
+/*
+========================
+Nav Menu Link Text Color
+========================
+*/
 #header .primary a,
 #header h2 {
 	color: #002b36;
 }
 
+/*
+======================
+Footer Link Text Color
+======================
+*/
 #footer ul,
 #footer a,
 #footer .heading {
 	color: #839496;
 }
 
+/*
+======================================
+Header Dropdown Hover Background Color
+======================================
+*/
 #header .dropdown .menu a:hover,
 #header .dropdown .menu a:focus {
 	background: rgba(255, 255, 255, 0.05);
 }
 
+/*
+===============================
+Button Text & Background Colors
+===============================
+*/
 #login .open a:hover,
 #login .open a:focus,
 .actions a,
@@ -99,10 +141,20 @@ li.relationships a,
 	color: #839496;
 }
 
+/*
+=====================
+Link Hover Text Color
+=====================
+*/
 a:hover {
 	color: #657b83;
 }
 
+/*
+=================================
+Button Hover & Field Border Color
+=================================
+*/
 #login-block,
 li.blurb,
 fieldset,
@@ -125,12 +177,22 @@ li.comment,
 	border-color: #073642;
 }
 
+/*
+===================
+Button Hover Shadow
+===================
+*/
 .actions a:hover,
 .actions input:hover,
 input[type="submit"]:hover {
 	box-shadow: inset 1px 1px 3px #000;
 }
 
+/*
+===================
+Form & Field Shadow
+===================
+*/
 fieldset,
 form dl,
 fieldset dl dl,
@@ -141,6 +203,11 @@ form blockquote.userstuff {
 	box-shadow: inset 1px 0 5px #002b36;
 }
 
+/*
+==========================================
+Selected Button & Message Background Color
+==========================================
+*/
 #dashboard .current,
 .actions a:active,
 .current,
@@ -160,6 +227,11 @@ dl.index dd,
 	background: #073642;
 }
 
+/*
+=================
+Button Text Color
+=================
+*/
 .actions a,
 .action,
 /*.actions input,
@@ -172,11 +244,21 @@ a.cloud5 {
 	color: #839496;
 }
 
+/*
+==================
+Visited Link Color
+==================
+*/
 a:visited,
 a.cloud6 {
 	color: #586e75;
 }
 
+/*
+===========================
+Button & Table Border Color
+===========================
+*/
 thead,
 tfoot,
 tfoot td,
@@ -207,11 +289,21 @@ ul.notes {
 	border-color: #073642;
 }
 
+/*
+================
+Text Area Shadow
+================
+*/
 input,
 textarea {
 	box-shadow: inset 0 1px 2px #073642;
 }
 
+/*
+==============
+Listbox Shadow
+==============
+*/
 li.blurb,
 .blurb .blurb,
 .listbox .index,
@@ -219,10 +311,20 @@ li.blurb,
 	box-shadow: inset 1px 1px 3px #073642;
 }
 
+/*
+===============
+Dropdown Shadow
+===============
+*/
 .autocomplete div.dropdown ul {
 	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
+/*
+===========
+Menu Shadow
+===========
+*/
 #header .menu,
 #small_login,
 #header .dropdown:hover .current+.menu,
@@ -230,6 +332,11 @@ li.blurb,
 	box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.5);
 }
 
+/*
+=========================
+Header & Field Background
+=========================
+*/
 #header .actions a:hover,
 #header .actions a:focus,
 #header .dropdown:hover a,
@@ -264,6 +371,11 @@ ul.notes,
 	background: #073642;
 }
 
+/*
+=================
+Search Text Color
+=================
+*/
 #header .search,
 #header #search input:focus,
 body,
@@ -294,10 +406,20 @@ a.cloud3,
 	color: #839496;
 }
 
+/*
+==================
+Draft Border Color
+==================
+*/
 .draft {
 	border-color: #657b83;
 }
 
+/*
+===================
+Button Border Color
+===================
+*/
 .actions a,
 .actions a:link,
 .action,
@@ -311,10 +433,20 @@ span.claimed {
 	border-color: #586e75;
 }
 
+/*
+========================
+Current Tab Border Color
+========================
+*/
 .current {
 	border-bottom-color: #586e75;
 }
 
+/*
+=========================
+Button Hover Border Color
+=========================
+*/
 .actions a:hover,
 .actions input:hover,
 input[type="submit"]:hover,
@@ -322,6 +454,11 @@ button:hover {
 	border-color: #073642;
 }
 
+/*
+===============
+Sortable Shadow
+===============
+*/
 .ui-sortable li:hover,
 .secondary,
 .wrapper,
@@ -329,15 +466,30 @@ button:hover {
 	box-shadow: 1px 1px 5px #000;
 }
 
+/*
+=============
+Delete Shadow
+=============
+*/
 .delete a,
 span.delete {
 	box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.75);
 }
 
+/*
+======================
+Modal Background Color
+======================
+*/
 #modal_bg {
 	background: #eee8d5;
 }
 
+/*
+==============
+Nav Text Color
+==============
+*/
 #header a,
 #header a:visited,
 #header .current,
@@ -366,19 +518,39 @@ a.cloud2 {
 	color: #586e75;
 }
 
+/*
+==================
+Visited Link Hover
+==================
+*/
 a:visited:hover {
 	color: #839496;
 }
 
+/*
+=================
+Visited Tag Hover
+=================
+*/
 a.tag:visited:hover {
 	color: #073642;
 }
 
+/*
+====================
+Nav Menu Item Border
+====================
+*/
 #header .menu li,
 .userstuff h3 {
 	border-color: #839496;
 }
 
+/*
+=============================
+Active/Selected Button Shadow
+=============================
+*/
 .actions a:active,
 .current,
 a.current,
@@ -386,6 +558,11 @@ a.current,
 	box-shadow: inset 1px 1px 3px #000;
 }
 
+/*
+======================================
+Header & Dropdown/Tag Hover Background
+======================================
+*/
 #header .primary,
 .autocomplete .dropdown ul li:hover,
 li.selected,
@@ -393,10 +570,20 @@ a.tag:hover {
 	background: #93a1a1;
 }
 
+/*
+=================
+Footer Background
+=================
+*/
 #footer {
 	background: #073642;
 }
 
+/*
+==============
+Nav Text Color
+==============
+*/
 #header .heading a,
 #header fieldset,
 #header form,
@@ -423,11 +610,21 @@ a.cloud8 {
 	color: #93a1a1;
 }
 
+/*
+=======================
+Button Hover Text Color
+=======================
+*/
 .actions a:hover,
 .actions input:hover {
 	color: #586e75;
 }
 
+/*
+============
+Error Border
+============
+*/
 #dashboard.own,
 .error,
 .comment_error,
@@ -440,6 +637,11 @@ textarea.LV_invalid_field:active {
 	border-color: #93a1a1;
 }
 
+/*
+======================
+Transparent Background
+======================
+*/
 #header .dropdown .menu a,
 #header .dropdown .menu .current,
 #dashboard a,
@@ -476,6 +678,11 @@ fieldset.comments,
 	background: transparent;
 }
 
+/*
+=========
+No Shadow
+=========
+*/
 fieldset dl,
 fieldset.actions,
 fieldset dl fieldset dl,
@@ -502,12 +709,22 @@ dl.nomination {
 	box-shadow: none;
 }
 
+/*
+==============
+No Text Shadow
+==============
+*/
 h2,
 .system p#signup,
 #header h2 {
 	text-shadow: none;
 }
 
+/*
+=============
+Text & Select
+=============
+*/
 input[type="text"],
 select {
 	background: #002b36;
@@ -515,11 +732,21 @@ select {
 	border-color: #586e75;
 }
 
+/*
+=========
+Bold Text
+=========
+*/
 #workskin strong,
 #workskin b {
 	color: #93a1a1;
 }
 
+/*
+===============
+Italicized Text
+===============
+*/
 #workskin em,
 #workskin i {
 	color: #586e75
