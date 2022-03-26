@@ -76,44 +76,76 @@
 	margin: auto;
 }
 
+/*
+Light theme:	#e53935
+Dark theme:		#f07178
+*/
 #workskin .font-red {
-	color: red;
+	color: #f07178;
 }
 
+/*
+Light theme:	#f76d47
+Dark theme:		#f78c6c
+*/
 #workskin .font-orange {
-	color: orange;
+	color: #f78c6c;
 }
 
+/*
+Light theme:	#f6a434
+Dark theme:		#ffcb6b
+*/
 #workskin .font-yellow {
-	color: yellow;
+	color: #ffcb6b;
 }
 
+/*
+Light theme:	#91b859
+Dark theme:		#c3e88d
+*/
 #workskin .font-green {
-	color: green;
+	color: #c3e88d;
 }
 
+/*
+Light theme:	#6182b8
+Dark theme:		#82aaff
+*/
 #workskin .font-blue {
-	color: blue;
+	color: #82aaff;
 }
 
+/*
+Light theme:	#7c4dff
+Dark theme:		#c792ea
+*/
 #workskin .font-purple {
-	color: purple;
+	color: #c792ea;
 }
 
 #workskin .font-white {
-	color: white;
+	color: #eeffff;
 }
 
 #workskin .font-black {
-	color: black;
+	color: #272727;
 }
 
+/*
+Light theme:	#d81b60
+Dark theme:		#f48fb1
+*/
 #workskin .font-pink {
-	color: pink;
+	color: #f48fb1;
 }
 
+/*
+Light theme:	#00897b
+Dark theme:		#80cbc4
+*/
 #workskin .font-teal {
-	color: #008282;
+	color: #80cbc4;
 }
 
 #workskin .font-redbrown {
