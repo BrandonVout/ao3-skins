@@ -519,11 +519,14 @@ a:link,
 .current,
 a.current,
 .current a:visited,
-a.tag,
-.tags a,
 a.cloud1,
 a.cloud2 {
 	color: #82aaff;
+}
+
+a.tag,
+.tags a {
+	color: #5f7e97;
 }
 
 /*
@@ -739,4 +742,64 @@ select {
 	background: #011627;
 	color: #d6deeb;
 	border-color: #5f7e97;
+}
+
+/*
+=================================
+Separates tags into bylines.
+Based on Byline redone by EliotWL
+(https://gist.github.com/EliotWL/e37c01bbf53e9cb816f08a3929b23dd4).
+=================================
+*/
+ul.tags {
+	padding-top: .5em;
+}
+
+ul.tags li.warnings:first-child:before {
+	content: "\a Archive Warnings: ";
+	white-space: pre;
+	color: #82aaff;
+	font-weight: bold;
+}
+
+li.warnings + li.relationships:before {
+	content: "\a Relationships: ";
+	white-space: pre;
+	color: #82aaff;
+	font-weight: bold;
+}
+
+li.relationships + li.characters:before {
+	content: "\a Characters: ";
+	white-space: pre;
+	color: #82aaff;
+	font-weight: bold;
+}
+
+li.characters + li.freeforms:before {
+	content: "\a Freeform: ";
+	white-space: pre;
+	color: #82aaff;
+	font-weight: bold;
+}
+
+li.warnings + li.characters:before {
+	content: "\a Characters: ";
+	white-space: pre;
+	color: #82aaff;
+	font-weight: bold;
+}
+
+li.warnings + li.freeforms:before {
+	content: "\a Freeform: ";
+	white-space: pre;
+	color: #82aaff;
+	font-weight: bold;
+}
+
+li.relationships + li.freeforms:before {
+	content: "\a Freeform: ";
+	white-space: pre;
+	color: #82aaff;
+	font-weight: bold;
 }
