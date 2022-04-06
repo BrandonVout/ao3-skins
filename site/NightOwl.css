@@ -136,13 +136,22 @@ input[type="submit"],
 button,
 .current,
 .actions label,
-li.relationships,
-li.relationships a,
 .thread .even,
 .system .intro,
 .system .tweet_list {
 	background: #0b2942;
 	color: #d6deeb;
+}
+
+/*
+=================
+Relationship Tags
+=================
+*/
+/*li.relationships,*/
+li.relationships a {
+	background: #0b2942;
+	color: #5f7e97;
 }
 
 /*
@@ -524,6 +533,11 @@ a.cloud2 {
 	color: #82aaff;
 }
 
+/*
+====
+Tags
+====
+*/
 a.tag,
 .tags a {
 	color: #5f7e97;
