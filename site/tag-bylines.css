@@ -1,10 +1,12 @@
 /*
-===================================================================
+=======================================================================
 Separates tags into bylines.
 Based on Byline redone by EliotWL
 (https://gist.github.com/EliotWL/e37c01bbf53e9cb816f08a3929b23dd4).
 Modified to work better as a parent skin for dark themes.
-===================================================================
+
+Add extra "\a" to content properties to add blank line between bylines.
+=======================================================================
 */
 
 ul.tags {
@@ -20,42 +22,42 @@ ul.tags li.warnings:first-child:before {
 
 li.warnings + li.relationships:before {
 	color: inherit;
-	content: "\a\a Relationships: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
-li.relationships + li.characters:before {
-	color: inherit;
-	content: "\a\a Characters: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
-li.characters + li.freeforms:before {
-	color: inherit;
-	content: "\a\a Tags: ";
+	content: "\a Relationships: ";
 	font-weight: bold;
 	white-space: pre;
 }
 
 li.warnings + li.characters:before {
 	color: inherit;
-	content: "\a\a Characters: ";
+	content: "\a Characters: ";
 	font-weight: bold;
 	white-space: pre;
 }
 
 li.warnings + li.freeforms:before {
 	color: inherit;
-	content: "\a\a Tags: ";
+	content: "\a Tags: ";
+	font-weight: bold;
+	white-space: pre;
+}
+
+li.relationships + li.characters:before {
+	color: inherit;
+	content: "\a Characters: ";
 	font-weight: bold;
 	white-space: pre;
 }
 
 li.relationships + li.freeforms:before {
 	color: inherit;
-	content: "\a\a Tags: ";
+	content: "\a Tags: ";
+	font-weight: bold;
+	white-space: pre;
+}
+
+li.characters + li.freeforms:before {
+	color: inherit;
+	content: "\a Tags: ";
 	font-weight: bold;
 	white-space: pre;
 }
