@@ -4,6 +4,8 @@
 
 Site and Work skins made for [Archive of Our Own](https://archiveofourown.org/).
 
+[Screenshots](./screenshots)
+
 ## Repositories
 
 - [Github](https://github.com/bvout/ao3-skins)
