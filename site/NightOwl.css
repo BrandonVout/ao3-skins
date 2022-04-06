@@ -791,7 +791,7 @@ li.relationships + li.characters:before {
 }
 
 li.characters + li.freeforms:before {
-	content: "\a Freeform: ";
+	content: "\a Tags: ";
 	white-space: pre;
 	color: #82aaff;
 	font-weight: bold;
@@ -805,14 +805,14 @@ li.warnings + li.characters:before {
 }
 
 li.warnings + li.freeforms:before {
-	content: "\a Freeform: ";
+	content: "\a Tags: ";
 	white-space: pre;
 	color: #82aaff;
 	font-weight: bold;
 }
 
 li.relationships + li.freeforms:before {
-	content: "\a Freeform: ";
+	content: "\a Tags: ";
 	white-space: pre;
 	color: #82aaff;
 	font-weight: bold;
