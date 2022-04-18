@@ -10,13 +10,13 @@ body {
 
 /*
 Font for stories and summaries
-Order: E-Reader (Google Books, Kindle), Linux, Android, macOS/iOS, Windows, web safe, browser default
+Order: E-Reader (Kindle, Google Books), Linux, Android, macOS/iOS, Windows, web safe, browser default
 */
 #workskin,
 blockquote.summary p,
 blockquote.userstuff p,
 li.comment blockquote.userstuff {
-	font-family: Literata, Bookerly, 'Noto Serif', 'Droid Serif', 'Roboto Slab', Georgia, Palatino, serif;
+	font-family: Bookerly, Literata, 'Noto Serif', 'Droid Serif', 'Roboto Slab', -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 }
 
 /* Font size for work boxes (tags, title, author, etc.) */
