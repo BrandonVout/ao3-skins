@@ -38,7 +38,7 @@
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-sansserif {
-	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */

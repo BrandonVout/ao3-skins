@@ -5,7 +5,7 @@ Site font
 Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
 */
 body {
-	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /*
