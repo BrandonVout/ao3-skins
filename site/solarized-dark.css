@@ -808,12 +808,12 @@ Italicized Text
 }
 
 /*
-=================================
-MUST ADD 'Work Tag Bylines' AS PARENT SKIN
+===================================================================
+MUST ADD 'Work Tag Bylines' AS PARENT SKIN TO SEE
 Separates tags into bylines.
 Based on Byline redone by EliotWL
 (https://gist.github.com/EliotWL/e37c01bbf53e9cb816f08a3929b23dd4).
-=================================
+===================================================================
 */
 ul.tags li.warnings:first-child:before {
 	color: #93a1a1;
