@@ -809,42 +809,27 @@ Italicized Text
 
 /*
 =================================
+MUST ADD 'Work Tag Bylines' AS PARENT SKIN
 Separates tags into bylines.
 Based on Byline redone by EliotWL
 (https://gist.github.com/EliotWL/e37c01bbf53e9cb816f08a3929b23dd4).
 =================================
 */
-ul.tags {
-	padding-top: 0.5em;
-}
-
 ul.tags li.warnings:first-child:before {
 	color: #586e75;
-	content: "Archive Warnings: ";
-	font-weight: bold;
-	white-space: pre;
 }
 
 li.warnings + li.relationships:before {
 	color: #586e75;
-	content: "\a Relationships: ";
-	font-weight: bold;
-	white-space: pre;
 }
 
 li.warnings + li.characters:before,
 li.relationships + li.characters:before {
 	color: #586e75;
-	content: "\a Characters: ";
-	font-weight: bold;
-	white-space: pre;
 }
 
 li.warnings + li.freeforms:before,
 li.relationships + li.freeforms:before,
 li.characters + li.freeforms:before {
 	color: #586e75;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
 }
