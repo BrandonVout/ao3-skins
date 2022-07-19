@@ -1,8 +1,5 @@
-# directory of skins copied from AO3 to be used as bases/references
-skins-by-ao3/
-
-# Created by https://www.toptal.com/developers/gitignore/api/macos,linux,windows,sublimetext
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,windows,sublimetext
+# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,sublimetext,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,sublimetext,visualstudiocode
 
 ### Linux ###
 *~
@@ -28,6 +25,7 @@ skins-by-ao3/
 # Icon must end with two \r
 Icon
 
+
 # Thumbnails
 ._*
 
@@ -47,6 +45,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
 ### SublimeText ###
 # Cache files for Sublime Text
 *.tmlanguage.cache
@@ -62,6 +64,7 @@ Temporary Items
 
 # SFTP configuration file
 sftp-config.json
+sftp-config-alt*.json
 
 # Package control specific files
 Package Control.last-run
@@ -78,6 +81,31 @@ bh_unicode_properties.cache
 # Sublime-github package stores a github token in this file
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+.vscode/*.code-snippets
+
+# Ignore code-workspaces
+*.code-workspace
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -105,4 +133,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,linux,windows,sublimetext
+# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,sublimetext,visualstudiocode
