@@ -1,4 +1,39 @@
-/* Adapted from Colour Flip Combos skin by AO3 - https://archiveofourown.org/skins/944 */
+/*
+Adapted from Colour Flip Combos skin by AO3 - https://archiveofourown.org/skins/944
+Based on Ethan Schoonover’s Solarized Color Scheme - https://ethanschoonover.com/solarized/
+
+Background: #fdf6e3
+Text: #657b83
+
+Dark Text: #586e75
+Light Text: #93a1a1
+
+Secondary Background: #eee8d5
+Border: #93a1a1
+
+Selection Background: #eee8d5
+Selection Text: #657b83
+
+Link Color: #586e75
+Link Hover: #839496
+Link Visited: #93a1a1
+Link Visited Hover: #657b83
+
+Title/Author Color: #586e75
+Title/Author Hover: #586e75
+Title/Author Visited: #93a1a1
+Title/Author Visited Hover: #586e75
+
+Tag Color: #93a1a1
+Tag Hover: #fdf6e3
+Tag Hover Background: #586e75
+Tag Visited: #93a1a1
+Tag Visited Hover: #eee8d5
+Relationship Tag Color: #657b83
+Relationship Tag Background: #eee8d5
+
+Header Color: #586e75
+*/
 
 /*
 ==================
@@ -7,7 +42,7 @@ Selection Settings
 */
 ::-moz-selection, /* Firefox legacy selection */
 ::selection {
-	background: #073642;
+	background: #eee8d5;
 }
 
 /*
@@ -35,7 +70,7 @@ textarea:focus,
 .listbox .index,
 .dashboard .listbox .index,
 .nomination dt {
-	background: #002b36;
+	background: #fdf6e3;
 }
 
 /*
@@ -47,7 +82,7 @@ Tag Link & Dropdown Hover Text Color
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-	color: #002b36;
+	color: #fdf6e3;
 }
 
 /*
@@ -72,7 +107,7 @@ form dt,
 a.current,
 .current a:visited,
 .search span.tip {
-	border-color: #002b36;
+	border-color: #fdf6e3;
 }
 
 /*
@@ -82,7 +117,7 @@ Form Notice Box Shadow
 */
 form .notice,
 form ul.notes {
-	box-shadow: 0px 0 3px #002b36;
+	box-shadow: 0px 0 3px #fdf6e3;
 }
 
 /*
@@ -92,7 +127,7 @@ Nav Menu Link Text Color
 */
 #header .primary a,
 #header h2 {
-	color: #002b36;
+	color: #fdf6e3;
 }
 
 /*
@@ -103,7 +138,7 @@ Footer Link Text Color
 #footer ul,
 #footer a,
 #footer .heading {
-	color: #839496;
+	color: #fdf6e3;
 }
 
 /*
@@ -113,7 +148,7 @@ Header Dropdown Hover Background Color
 */
 #header .dropdown .menu a:hover,
 #header .dropdown .menu a:focus {
-	background: rgba(255, 255, 255, 0.05);
+	background: rgba(255, 255, 255, 0.25);
 }
 
 /*
@@ -135,8 +170,8 @@ button,
 .thread .even,
 .system .intro,
 .system .tweet_list {
-	background: #073642;
-	color: #839496;
+	background: #eee8d5;
+	color: #657b83;
 }
 
 /*
@@ -146,8 +181,8 @@ Relationship Tags
 */
 /*li.relationships,*/
 li.relationships a {
-	background: #073642;
-	color: #839496;
+	background: #eee8d5;
+	color: #657b83;
 }
 
 /*
@@ -156,7 +191,7 @@ Link Hover Text Color
 =====================
 */
 a:hover {
-	color: #657b83;
+	color: #839496;
 }
 
 /*
@@ -183,7 +218,7 @@ li.comment,
 .actions a:hover,
 .actions input:hover,
 .userstuff blockquote {
-	border-color: #073642;
+	border-color: #eee8d5;
 }
 
 /*
@@ -191,11 +226,11 @@ li.comment,
 Button Hover Shadow
 ===================
 */
-.actions a:hover,
+/*.actions a:hover,
 .actions input:hover,
 input[type="submit"]:hover {
 	box-shadow: inset 1px 1px 3px #000;
-}
+}*/
 
 /*
 ===================
@@ -209,7 +244,7 @@ fieldset fieldset fieldset,
 fieldset fieldset dl dl,
 dd.hideme,
 form blockquote.userstuff {
-	box-shadow: inset 1px 0 5px #002b36;
+	box-shadow: inset 1px 0 5px #839496;
 }
 
 /*
@@ -233,7 +268,7 @@ dl.index dd,
 .child,
 .unwrangled,
 .unreviewed {
-	background: #073642;
+	background: #eee8d5;
 }
 
 /*
@@ -250,7 +285,7 @@ button,
 .actions label,
 a.cloud4,
 a.cloud5 {
-	color: #839496;
+	color: #657b83;
 }
 
 /*
@@ -260,7 +295,7 @@ Visited Link Color
 */
 a:visited,
 a.cloud6 {
-	color: #586e75;
+	color: #93a1a1;
 }
 
 /*
@@ -295,17 +330,20 @@ dl.meta,
 .picture .header,
 .bookmark .user,
 ul.notes {
-	border-color: #073642;
+	border-color: #eee8d5;
 }
 
 /*
-================
-Text Area Shadow
-================
+=========
+Text Area
+=========
 */
 input,
 textarea {
-	box-shadow: inset 0 1px 2px #073642;
+	background: #fdf6e3;
+	border-color: #93a1a1;
+	box-shadow: inset 0 1px 2px #eee8d5;
+	color: #657b83;
 }
 
 /*
@@ -317,7 +355,7 @@ li.blurb,
 .blurb .blurb,
 .listbox .index,
 .dashboard .listbox .index {
-	box-shadow: inset 1px 1px 3px #073642;
+	box-shadow: inset 1px 1px 3px #eee8d5;
 }
 
 /*
@@ -377,7 +415,7 @@ fieldset fieldset.listbox,
 .comment_error,
 ul.notes,
 .system .tweet_list li:nth-child(even) {
-	background: #073642;
+	background: #eee8d5;
 }
 
 /*
@@ -412,7 +450,7 @@ body,
 .filters .expander,
 a.cloud3,
 #header .search input[type="text"] {
-	color: #839496;
+	color: #657b83;
 }
 
 /*
@@ -421,7 +459,7 @@ Draft Border Color
 ==================
 */
 .draft {
-	border-color: #657b83;
+	border-color: #839496;
 }
 
 /*
@@ -439,7 +477,7 @@ button,
 span.unread,
 .replied,
 span.claimed {
-	border-color: #586e75;
+	border-color: #93a1a1;
 }
 
 /*
@@ -448,7 +486,7 @@ Current Tab Border Color
 ========================
 */
 .current {
-	border-bottom-color: #586e75;
+	border-bottom-color: #93a1a1;
 }
 
 /*
@@ -460,7 +498,7 @@ Button Hover Border Color
 .actions input:hover,
 input[type="submit"]:hover,
 button:hover {
-	border-color: #073642;
+	border-color: #eee8d5;
 }
 
 /*
@@ -472,7 +510,7 @@ Sortable Shadow
 .secondary,
 .wrapper,
 .ui-draggable form {
-	box-shadow: 1px 1px 5px #000;
+	box-shadow: 1px 1px 5px #839496;
 }
 
 /*
@@ -491,7 +529,7 @@ Modal Background Color
 ======================
 */
 #modal_bg {
-	background: #eee8d5;
+	background: #073642;
 }
 
 /*
@@ -522,7 +560,7 @@ a.current,
 .current a:visited,
 a.cloud1,
 a.cloud2 {
-	color: #586e75;
+	color: #93a1a1;
 }
 
 /*
@@ -532,7 +570,7 @@ Tags
 */
 a.tag,
 .tags a {
-	color: #586e75;
+	color: #93a1a1;
 }
 
 /*
@@ -541,7 +579,7 @@ Visited Link Hover
 ==================
 */
 a:visited:hover {
-	color: #839496;
+	color: #657b83;
 }
 
 /*
@@ -550,7 +588,7 @@ Visited Tag Hover
 =================
 */
 a.tag:visited:hover {
-	color: #073642;
+	color: #eee8d5;
 }
 
 /*
@@ -560,7 +598,7 @@ Nav Menu Item Border
 */
 #header .menu li,
 .userstuff h3 {
-	border-color: #839496;
+	border-color: #657b83;
 }
 
 /*
@@ -572,7 +610,7 @@ Active/Selected Button Shadow
 .current,
 a.current,
 .current a:visited {
-	box-shadow: inset 1px 1px 3px #000;
+	box-shadow: inset 1px 1px 3px #657b83;
 }
 
 /*
@@ -584,7 +622,7 @@ Header & Dropdown/Tag Hover Background
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-	background: #93a1a1;
+	background: #586e75;
 }
 
 /*
@@ -593,7 +631,7 @@ Footer Background
 =================
 */
 #footer {
-	background: #073642;
+	background: #586e75;
 }
 
 /*
@@ -624,7 +662,7 @@ a.work,
 .error,
 a.cloud7,
 a.cloud8 {
-	color: #93a1a1;
+	color: #586e75;
 }
 
 /*
@@ -634,7 +672,7 @@ Button Hover Text Color
 */
 .actions a:hover,
 .actions input:hover {
-	color: #586e75;
+	color: #93a1a1;
 }
 
 /*
@@ -651,7 +689,7 @@ input.LV_invalid_field:hover,
 input.LV_invalid_field:active,
 textarea.LV_invalid_field:hover,
 textarea.LV_invalid_field:active {
-	border-color: #93a1a1;
+	border-color: #586e75;
 }
 
 /*
@@ -744,8 +782,8 @@ Text & Select
 */
 input[type="text"],
 select {
-	background: #002b36;
-	color: #839496;
+	background: #fdf6e3;
+	color: #657b83;
 	border-color: #586e75;
 }
 
@@ -756,7 +794,7 @@ Bold Text
 */
 #workskin strong,
 #workskin b {
-	color: #93a1a1;
+	color: #586e75;
 }
 
 /*
@@ -766,65 +804,32 @@ Italicized Text
 */
 #workskin em,
 #workskin i {
-	color: #586e75
+	color: #93a1a1
 }
 
 /*
-=================================
+===================================================================
+MUST ADD 'Work Tag Bylines' AS PARENT SKIN TO SEE
 Separates tags into bylines.
 Based on Byline redone by EliotWL
 (https://gist.github.com/EliotWL/e37c01bbf53e9cb816f08a3929b23dd4).
-=================================
+===================================================================
 */
-ul.tags {
-	padding-top: 0.5em;
-}
-
 ul.tags li.warnings:first-child:before {
-	color: #93a1a1;
-	content: "Archive Warnings: ";
-	font-weight: bold;
-	white-space: pre;
+	color: #586e75;
 }
 
 li.warnings + li.relationships:before {
-	color: #93a1a1;
-	content: "\a Relationships: ";
-	font-weight: bold;
-	white-space: pre;
+	color: #586e75;
 }
 
-li.warnings + li.characters:before {
-	color: #93a1a1;
-	content: "\a Characters: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
-li.warnings + li.freeforms:before {
-	color: #93a1a1;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
+li.warnings + li.characters:before,
 li.relationships + li.characters:before {
-	color: #93a1a1;
-	content: "\a Characters: ";
-	font-weight: bold;
-	white-space: pre;
+	color: #586e75;
 }
 
-li.relationships + li.freeforms:before {
-	color: #93a1a1;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
+li.warnings + li.freeforms:before,
+li.relationships + li.freeforms:before,
 li.characters + li.freeforms:before {
-	color: #93a1a1;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
+	color: #586e75;
 }

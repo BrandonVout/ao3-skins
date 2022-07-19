@@ -10,7 +10,7 @@
 }
 
 #workskin .dropcap {
-	font-family: Literata, Bookerly, 'Noto Serif', 'Droid Serif', 'Roboto Slab', Georgia, Palatino, serif;
+	font-family: Bookerly, Literata, 'Noto Serif', 'Droid Serif', 'Roboto Slab', -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 	font-size: 3em;
 }
 
@@ -31,14 +31,14 @@
 	border: 1px solid;
 }
 
-/* Order: E-Reader (Google Books, Kindle), Linux, Android, macOS/iOS, Windows, web safe, browser default */
+/* Order: E-Reader (Kindle, Google Books), Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-serif {
-	font-family: Literata, Bookerly, 'Noto Serif', 'Droid Serif', 'Roboto Slab', Georgia, Palatino, serif;
+	font-family: Bookerly, Literata, 'Noto Serif', 'Droid Serif', 'Roboto Slab', -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 }
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-sansserif {
-	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */

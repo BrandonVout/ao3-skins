@@ -27,20 +27,7 @@ li.warnings + li.relationships:before {
 	white-space: pre;
 }
 
-li.warnings + li.characters:before {
-	color: inherit;
-	content: "\a Characters: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
-li.warnings + li.freeforms:before {
-	color: inherit;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
+li.warnings + li.characters:before,
 li.relationships + li.characters:before {
 	color: inherit;
 	content: "\a Characters: ";
@@ -48,13 +35,8 @@ li.relationships + li.characters:before {
 	white-space: pre;
 }
 
-li.relationships + li.freeforms:before {
-	color: inherit;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
+li.warnings + li.freeforms:before,
+li.relationships + li.freeforms:before,
 li.characters + li.freeforms:before {
 	color: inherit;
 	content: "\a Tags: ";

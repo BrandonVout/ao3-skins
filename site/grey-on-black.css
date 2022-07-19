@@ -1,4 +1,36 @@
-/* Adapted from Colour Flip Combos skin by AO3 - https://archiveofourown.org/skins/944 */
+/*
+Background: #000000
+Text: #888888
+
+Dark Text: #888888
+Light Text: #888888
+
+Secondary Background: #000000
+Border: #888888
+
+Selection Background: #000000
+Selection Text: #888888
+
+Link Color: #888888
+Link Hover: #aaaaaa
+Link Visited: #666666
+Link Visited Hover: #888888
+
+Blurb Color: #888888
+Blurb Hover: #aaaaaa
+Blurb Visited: #666666
+Blurb Visited Hover: #888888
+
+Tag Color: #666666
+Tag Hover: #000000
+Tag Hover Background: #888888
+Tag Visited: #666666
+Tag Visited Hover: #000000
+Relationship Tag Color: #888888
+Relationship Tag Background: #000000
+
+Header Color: #888888
+*/
 
 /*
 ==================
@@ -7,7 +39,8 @@ Selection Settings
 */
 ::-moz-selection, /* Firefox legacy selection */
 ::selection {
-	background: #eee8d5;
+	background: #888888;
+	color: #000000;
 }
 
 /*
@@ -35,7 +68,7 @@ textarea:focus,
 .listbox .index,
 .dashboard .listbox .index,
 .nomination dt {
-	background: #fdf6e3;
+	background: #000000;
 }
 
 /*
@@ -47,7 +80,7 @@ Tag Link & Dropdown Hover Text Color
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-	color: #fdf6e3;
+	color: #000000;
 }
 
 /*
@@ -72,7 +105,7 @@ form dt,
 a.current,
 .current a:visited,
 .search span.tip {
-	border-color: #fdf6e3;
+	border-color: #000000;
 }
 
 /*
@@ -82,7 +115,7 @@ Form Notice Box Shadow
 */
 form .notice,
 form ul.notes {
-	box-shadow: 0px 0 3px #fdf6e3;
+	box-shadow: 0px 0 3px #000000;
 }
 
 /*
@@ -92,7 +125,7 @@ Nav Menu Link Text Color
 */
 #header .primary a,
 #header h2 {
-	color: #fdf6e3;
+	color: #000000;
 }
 
 /*
@@ -103,7 +136,7 @@ Footer Link Text Color
 #footer ul,
 #footer a,
 #footer .heading {
-	color: #fdf6e3;
+	color: #888888;
 }
 
 /*
@@ -113,7 +146,7 @@ Header Dropdown Hover Background Color
 */
 #header .dropdown .menu a:hover,
 #header .dropdown .menu a:focus {
-	background: rgba(255, 255, 255, 0.25);
+	background: rgba(255, 255, 255, 0.05);
 }
 
 /*
@@ -135,8 +168,8 @@ button,
 .thread .even,
 .system .intro,
 .system .tweet_list {
-	background: #eee8d5;
-	color: #657b83;
+	background: #000000;
+	color: #888888;
 }
 
 /*
@@ -146,8 +179,8 @@ Relationship Tags
 */
 /*li.relationships,*/
 li.relationships a {
-	background: #eee8d5;
-	color: #657b83;
+	background: #000000;
+	color: #666666;
 }
 
 /*
@@ -156,7 +189,7 @@ Link Hover Text Color
 =====================
 */
 a:hover {
-	color: #839496;
+	color: #aaaaaa;
 }
 
 /*
@@ -183,7 +216,7 @@ li.comment,
 .actions a:hover,
 .actions input:hover,
 .userstuff blockquote {
-	border-color: #eee8d5;
+	border-color: #000000;
 }
 
 /*
@@ -191,11 +224,11 @@ li.comment,
 Button Hover Shadow
 ===================
 */
-/*.actions a:hover,
+.actions a:hover,
 .actions input:hover,
 input[type="submit"]:hover {
 	box-shadow: inset 1px 1px 3px #000;
-}*/
+}
 
 /*
 ===================
@@ -209,7 +242,7 @@ fieldset fieldset fieldset,
 fieldset fieldset dl dl,
 dd.hideme,
 form blockquote.userstuff {
-	box-shadow: inset 1px 0 5px #839496;
+	box-shadow: inset 1px 0 5px #000000;
 }
 
 /*
@@ -233,7 +266,7 @@ dl.index dd,
 .child,
 .unwrangled,
 .unreviewed {
-	background: #eee8d5;
+	background: #000000;
 }
 
 /*
@@ -250,7 +283,7 @@ button,
 .actions label,
 a.cloud4,
 a.cloud5 {
-	color: #657b83;
+	color: #888888;
 }
 
 /*
@@ -260,7 +293,7 @@ Visited Link Color
 */
 a:visited,
 a.cloud6 {
-	color: #93a1a1;
+	color: #666666;
 }
 
 /*
@@ -295,17 +328,31 @@ dl.meta,
 .picture .header,
 .bookmark .user,
 ul.notes {
-	border-color: #eee8d5;
+	border-color: #000000;
 }
 
 /*
-================
-Text Area Shadow
-================
+=========
+Text Area
+=========
 */
 input,
 textarea {
-	box-shadow: inset 0 1px 2px #eee8d5;
+	background: #000000;
+	border-color: #888888;
+	box-shadow: inset 0 1px 2px #000000;
+	color: #888888;
+}
+
+/*
+====================
+Text Area Background
+====================
+*/
+textarea {
+	background: #000000;
+	border-color: #888888;
+	color: #888888;
 }
 
 /*
@@ -317,7 +364,7 @@ li.blurb,
 .blurb .blurb,
 .listbox .index,
 .dashboard .listbox .index {
-	box-shadow: inset 1px 1px 3px #eee8d5;
+	box-shadow: inset 1px 1px 3px #000000;
 }
 
 /*
@@ -377,7 +424,7 @@ fieldset fieldset.listbox,
 .comment_error,
 ul.notes,
 .system .tweet_list li:nth-child(even) {
-	background: #eee8d5;
+	background: #000000;
 }
 
 /*
@@ -412,7 +459,7 @@ body,
 .filters .expander,
 a.cloud3,
 #header .search input[type="text"] {
-	color: #657b83;
+	color: #888888;
 }
 
 /*
@@ -421,7 +468,7 @@ Draft Border Color
 ==================
 */
 .draft {
-	border-color: #839496;
+	border-color: #888888;
 }
 
 /*
@@ -439,7 +486,7 @@ button,
 span.unread,
 .replied,
 span.claimed {
-	border-color: #93a1a1;
+	border-color: #888888;
 }
 
 /*
@@ -448,7 +495,7 @@ Current Tab Border Color
 ========================
 */
 .current {
-	border-bottom-color: #93a1a1;
+	border-bottom-color: #888888;
 }
 
 /*
@@ -460,7 +507,7 @@ Button Hover Border Color
 .actions input:hover,
 input[type="submit"]:hover,
 button:hover {
-	border-color: #eee8d5;
+	border-color: #000000;
 }
 
 /*
@@ -472,7 +519,7 @@ Sortable Shadow
 .secondary,
 .wrapper,
 .ui-draggable form {
-	box-shadow: 1px 1px 5px #839496;
+	box-shadow: 1px 1px 5px #000;
 }
 
 /*
@@ -491,7 +538,7 @@ Modal Background Color
 ======================
 */
 #modal_bg {
-	background: #073642;
+	background: #eee8d5;
 }
 
 /*
@@ -522,7 +569,7 @@ a.current,
 .current a:visited,
 a.cloud1,
 a.cloud2 {
-	color: #93a1a1;
+	color: #888888;
 }
 
 /*
@@ -532,7 +579,7 @@ Tags
 */
 a.tag,
 .tags a {
-	color: #93a1a1;
+	color: #666666;
 }
 
 /*
@@ -541,7 +588,7 @@ Visited Link Hover
 ==================
 */
 a:visited:hover {
-	color: #657b83;
+	color: #888888;
 }
 
 /*
@@ -550,7 +597,7 @@ Visited Tag Hover
 =================
 */
 a.tag:visited:hover {
-	color: #eee8d5;
+	color: #000000;
 }
 
 /*
@@ -560,7 +607,7 @@ Nav Menu Item Border
 */
 #header .menu li,
 .userstuff h3 {
-	border-color: #657b83;
+	border-color: #888888;
 }
 
 /*
@@ -572,7 +619,7 @@ Active/Selected Button Shadow
 .current,
 a.current,
 .current a:visited {
-	box-shadow: inset 1px 1px 3px #657b83;
+	box-shadow: inset 1px 1px 3px #000;
 }
 
 /*
@@ -584,7 +631,7 @@ Header & Dropdown/Tag Hover Background
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-	background: #586e75;
+	background: #888888;
 }
 
 /*
@@ -593,7 +640,7 @@ Footer Background
 =================
 */
 #footer {
-	background: #586e75;
+	background: #000000;
 }
 
 /*
@@ -624,7 +671,7 @@ a.work,
 .error,
 a.cloud7,
 a.cloud8 {
-	color: #586e75;
+	color: #888888;
 }
 
 /*
@@ -634,7 +681,7 @@ Button Hover Text Color
 */
 .actions a:hover,
 .actions input:hover {
-	color: #93a1a1;
+	color: #888888;
 }
 
 /*
@@ -651,7 +698,7 @@ input.LV_invalid_field:hover,
 input.LV_invalid_field:active,
 textarea.LV_invalid_field:hover,
 textarea.LV_invalid_field:active {
-	border-color: #586e75;
+	border-color: #888888;
 }
 
 /*
@@ -744,9 +791,9 @@ Text & Select
 */
 input[type="text"],
 select {
-	background: #fdf6e3;
-	color: #657b83;
-	border-color: #586e75;
+	background: #000000;
+	color: #888888;
+	border-color: #888888;
 }
 
 /*
@@ -756,7 +803,7 @@ Bold Text
 */
 #workskin strong,
 #workskin b {
-	color: #586e75;
+	color: #888888;
 }
 
 /*
@@ -766,65 +813,32 @@ Italicized Text
 */
 #workskin em,
 #workskin i {
-	color: #93a1a1
+	color: #888888
 }
 
 /*
-=================================
+===================================================================
+MUST ADD 'Work Tag Bylines' AS PARENT SKIN TO SEE
 Separates tags into bylines.
 Based on Byline redone by EliotWL
 (https://gist.github.com/EliotWL/e37c01bbf53e9cb816f08a3929b23dd4).
-=================================
+===================================================================
 */
-ul.tags {
-	padding-top: 0.5em;
-}
-
 ul.tags li.warnings:first-child:before {
-	color: #586e75;
-	content: "Archive Warnings: ";
-	font-weight: bold;
-	white-space: pre;
+	color: #888888;
 }
 
 li.warnings + li.relationships:before {
-	color: #586e75;
-	content: "\a Relationships: ";
-	font-weight: bold;
-	white-space: pre;
+	color: #888888;
 }
 
-li.warnings + li.characters:before {
-	color: #586e75;
-	content: "\a Characters: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
-li.warnings + li.freeforms:before {
-	color: #586e75;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
+li.warnings + li.characters:before,
 li.relationships + li.characters:before {
-	color: #586e75;
-	content: "\a Characters: ";
-	font-weight: bold;
-	white-space: pre;
+	color: #888888;
 }
 
-li.relationships + li.freeforms:before {
-	color: #586e75;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
+li.warnings + li.freeforms:before,
+li.relationships + li.freeforms:before,
 li.characters + li.freeforms:before {
-	color: #586e75;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
+	color: #888888;
 }

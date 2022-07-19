@@ -1,6 +1,38 @@
 /*
 Adapted from Colour Flip Combos skin by AO3 - https://archiveofourown.org/skins/944
 Based on the Night Owl Visual Studio Code theme by Sarah Drasner - https://github.com/sdras/night-owl-vscode-theme
+
+Background: #011627
+Text: #d6deeb
+
+Dark Text: #d6deeb
+Light Text: #d6deeb
+
+Secondary Background: #0b2942
+Border: #5f7e97
+
+Selection Background: #5f7e9790
+Selection Text: #ffffff
+
+Link Color: #82aaff
+Link Hover: #697098
+Link Visited: #5f7e97
+Link Visited Hover: #d6deeb
+
+Blurb Color: #82aaff
+Blurb Hover: #82aaff
+Blurb Visited: #5f7e97
+Blurb Visited Hover: #d6deeb
+
+Tag Color: #5f7e97
+Tag Hover: #ecc48d
+Tag Hover Background: #084d81
+Tag Visited: #5f7e97
+Tag Visited Hover: #f78c6c
+Relationship Tag Color: #5f7e97
+Relationship Tag Background: #0b2942
+
+Header Color: #82aaff
 */
 
 /*
@@ -303,13 +335,16 @@ ul.notes {
 }
 
 /*
-================
-Text Area Shadow
-================
+=========
+Text Area
+=========
 */
 input,
 textarea {
+	background: #011627;
+	border-color: #5f7e97;
 	box-shadow: inset 0 1px 2px #0b2942;
+	color: #d6deeb;
 }
 
 /*
@@ -759,61 +794,28 @@ select {
 }
 
 /*
-=================================
+===================================================================
+MUST ADD 'Work Tag Bylines' AS PARENT SKIN TO SEE
 Separates tags into bylines.
 Based on Byline redone by EliotWL
 (https://gist.github.com/EliotWL/e37c01bbf53e9cb816f08a3929b23dd4).
-=================================
+===================================================================
 */
-ul.tags {
-	padding-top: 0.5em;
-}
-
 ul.tags li.warnings:first-child:before {
 	color: #82aaff;
-	content: "Archive Warnings: ";
-	font-weight: bold;
-	white-space: pre;
 }
 
 li.warnings + li.relationships:before {
 	color: #82aaff;
-	content: "\a Relationships: ";
-	font-weight: bold;
-	white-space: pre;
 }
 
-li.warnings + li.characters:before {
-	color: #82aaff;
-	content: "\a Characters: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
-li.warnings + li.freeforms:before {
-	color: #82aaff;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
+li.warnings + li.characters:before,
 li.relationships + li.characters:before {
 	color: #82aaff;
-	content: "\a Characters: ";
-	font-weight: bold;
-	white-space: pre;
 }
 
-li.relationships + li.freeforms:before {
-	color: #82aaff;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
-}
-
+li.warnings + li.freeforms:before,
+li.relationships + li.freeforms:before,
 li.characters + li.freeforms:before {
 	color: #82aaff;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
 }
