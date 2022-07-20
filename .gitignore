@@ -1,3 +1,6 @@
+# exclude reference files
+skins-by-ao3/
+
 # Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,sublimetext,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,sublimetext,visualstudiocode
 
