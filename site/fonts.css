@@ -5,7 +5,8 @@ Site font
 Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
 */
 body {
-	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: "Noto Sans", "Open Sans", "Droid Sans", "Roboto", -apple-system,
+		BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -16,7 +17,8 @@ Order: E-Reader (Kindle, Google Books), Linux, Android, macOS/iOS, Windows, web 
 blockquote.summary p,
 blockquote.userstuff p,
 li.comment blockquote.userstuff {
-	font-family: Bookerly, Literata, 'Noto Serif', 'Droid Serif', 'Roboto Slab', -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
+	font-family: Bookerly, Literata, "Noto Serif", "Droid Serif", "Roboto Slab",
+		-apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 }
 
 /* Font size for work boxes (tags, title, author, etc.) */
