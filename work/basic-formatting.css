@@ -10,7 +10,8 @@
 }
 
 #workskin .dropcap {
-	font-family: Bookerly, Literata, 'Noto Serif', 'Droid Serif', 'Roboto Slab', -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
+	font-family: Bookerly, Literata, "Noto Serif", "Droid Serif", "Roboto Slab",
+		-apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 	font-size: 3em;
 }
 
@@ -33,17 +34,20 @@
 
 /* Order: E-Reader (Kindle, Google Books), Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-serif {
-	font-family: Bookerly, Literata, 'Noto Serif', 'Droid Serif', 'Roboto Slab', -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
+	font-family: Bookerly, Literata, "Noto Serif", "Droid Serif", "Roboto Slab",
+		-apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 }
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-sansserif {
-	font-family: 'Noto Sans', 'Open Sans', 'Droid Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: "Noto Sans", "Open Sans", "Droid Sans", "Roboto", -apple-system,
+		BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-monospace {
-	font-family: 'Noto Mono', 'Droid Sans Mono', 'Roboto Mono', Menlo, Monaco, Consolas, 'Courier New', Courier, monospace;
+	font-family: "Noto Mono", "Droid Sans Mono", "Roboto Mono", Menlo, Consolas,
+		"Courier New", Courier, monospace;
 }
 
 #workskin .font-big {

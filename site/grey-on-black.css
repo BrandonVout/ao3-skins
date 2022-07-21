@@ -383,7 +383,7 @@ Menu Shadow
 */
 #header .menu,
 #small_login,
-#header .dropdown:hover .current+.menu,
+#header .dropdown:hover .current + .menu,
 #greeting .menu {
 	box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.5);
 }
@@ -400,7 +400,7 @@ Header & Field Background
 #header .current,
 #header .menu,
 #small_login,
-#header .dropdown:hover .current+.menu,
+#header .dropdown:hover .current + .menu,
 table,
 thead td,
 #header #small_login,
@@ -813,7 +813,7 @@ Italicized Text
 */
 #workskin em,
 #workskin i {
-	color: #888888
+	color: #888888;
 }
 
 /*
