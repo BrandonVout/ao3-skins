@@ -1,8 +1,21 @@
-/* Created by Brandon Vout. Improves readability of workskin and work blurbs on desktop without affecting mobile browsers */
+/*
+Created by Brandon Vout.
+Improves readability of workskin and work blurbs on desktop without affecting mobile browsers
+*/
 
 #workskin {
-	/*max-width: 45ch;*/
-	max-width: 40ch;
-	/* 40ch better for size 16px fonts, 45ch works better for 11-14px */
+	/* Based on width of font's zero (0) */
+	/* --------------------------------- */
+	/* 'The Elements of Typographic Style' recommends a paragraph width between 45-75 characters */
+	/* min-width: 45ch; */
+	/* disable min-width for mobile support */
+	max-width: 65ch;
+	/* max-width: 75ch; */
+
+	/* Based on font-height */
+	/* -------------------- */
+	/* max-width: 45em; */
+	/* max-width: 40em; */
+	/* 40em better for size 16px fonts, 45em works better for 11-14px */
 	/* max-width is better for mobile than margin setting in AO3's Wizard */
 }
