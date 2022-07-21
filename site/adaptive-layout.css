@@ -18,4 +18,8 @@ Improves readability of workskin and work blurbs on desktop without affecting mo
 	/* max-width: 40em; */
 	/* 40em better for size 16px fonts, 45em works better for 11-14px */
 	/* max-width is better for mobile than margin setting in AO3's Wizard */
+
+	/* Based on fixed width */
+	/* -------------------- */
+	/* max-width: 640px; */
 }
