@@ -1,0 +1,23 @@
+/*
+Adds theme color to tag bylines if the Dracula Theme has Tag Bylines as a parent theme.
+Add to the end of the respective theme from https://draculatheme.com/archive-of-our-own
+*/
+
+ul.tags li.warnings:first-child:before {
+	color: #ff5555;
+}
+
+li.warnings + li.relationships:before {
+	color: #ff5555;
+}
+
+li.warnings + li.characters:before,
+li.relationships + li.characters:before {
+	color: #ff5555;
+}
+
+li.warnings + li.freeforms:before,
+li.relationships + li.freeforms:before,
+li.characters + li.freeforms:before {
+	color: #ff5555;
+}
