@@ -7,16 +7,16 @@ Text: #e3e3e3
 Dark Text: #e3e3e3
 Light Text: #e3e3e3
 
-Secondary Background: #111111
+Secondary Background: #343434
 Border: #b3b3b3
 
 Selection Background: #b3b3b390
 Selection Text: #ffffff
 
 Link Color: #a8c8fb
-Link Hover: #697098
-Link Visited: #4d70f0
-Link Visited Hover: #e3e3e3
+Link Hover: #addb67
+Link Visited: #c792ea
+Link Visited Hover: #addb67
 
 Blurb Color: #a8c8fb
 Blurb Hover: #a8c8fb
@@ -24,12 +24,12 @@ Blurb Visited: #b3b3b3
 Blurb Visited Hover: #e3e3e3
 
 Tag Color: #b3b3b3
-Tag Hover: #1f1f1f
-Tag Hover Background: #b3b3b3
+Tag Hover: #a8c8fb
+Tag Hover Background: #696969
 Tag Visited: #b3b3b3
-Tag Visited Hover: #4d70f0
+Tag Visited Hover: #addb67
 Relationship Tag Color: #b3b3b3
-Relationship Tag Background: #111111
+Relationship Tag Background: #343434
 
 Header Color: #a8c8fb
 */
@@ -170,7 +170,7 @@ button,
 .thread .even,
 .system .intro,
 .system .tweet_list {
-	background: #111111;
+	background: #343434;
 	color: #e3e3e3;
 }
 
@@ -181,7 +181,7 @@ Relationship Tags
 */
 /*li.relationships,*/
 li.relationships a {
-	background: #111111;
+	background: #343434;
 	color: #b3b3b3;
 }
 
@@ -191,7 +191,7 @@ Link Hover Text Color
 =====================
 */
 a:hover {
-	color: #697098;
+	color: #addb67;
 }
 
 /*
@@ -218,7 +218,7 @@ li.comment,
 .actions a:hover,
 .actions input:hover,
 .userstuff blockquote {
-	border-color: #111111;
+	border-color: #343434;
 }
 
 /*
@@ -268,7 +268,7 @@ dl.index dd,
 .child,
 .unwrangled,
 .unreviewed {
-	background: #111111;
+	background: #343434;
 }
 
 /*
@@ -295,7 +295,7 @@ Visited Link Color
 */
 a:visited,
 a.cloud6 {
-	color: #4d70f0;
+	color: #c792ea;
 }
 
 /*
@@ -330,7 +330,7 @@ dl.meta,
 .picture .header,
 .bookmark .user,
 ul.notes {
-	border-color: #111111;
+	border-color: #343434;
 }
 
 /*
@@ -342,7 +342,7 @@ input,
 textarea {
 	background: #1f1f1f;
 	border-color: #b3b3b3;
-	box-shadow: inset 0 1px 2px #111111;
+	box-shadow: inset 0 1px 2px #343434;
 	color: #e3e3e3;
 }
 
@@ -355,7 +355,7 @@ li.blurb,
 .blurb .blurb,
 .listbox .index,
 .dashboard .listbox .index {
-	box-shadow: inset 1px 1px 3px #111111;
+	box-shadow: inset 1px 1px 3px #343434;
 }
 
 /*
@@ -415,7 +415,7 @@ fieldset fieldset.listbox,
 .comment_error,
 ul.notes,
 .system .tweet_list li:nth-child(even) {
-	background: #111111;
+	background: #343434;
 }
 
 .search span.tip {
@@ -502,7 +502,7 @@ Button Hover Border Color
 .actions input:hover,
 input[type="submit"]:hover,
 button:hover {
-	border-color: #111111;
+	border-color: #343434;
 }
 
 /*
@@ -583,7 +583,7 @@ Visited Link Hover
 ==================
 */
 a:visited:hover {
-	color: #e3e3e3;
+	color: #addb67;
 }
 
 /*
@@ -592,7 +592,7 @@ Visited Tag Hover
 =================
 */
 a.tag:visited:hover {
-	color: #4d70f0;
+	color: #addb67;
 }
 
 /*
@@ -626,8 +626,8 @@ Header & Dropdown/Tag Hover Background
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-	background: #b3b3b3;
-	color: #1f1f1f;
+	background: #696969;
+	color: #a8c8fb;
 }
 
 /*
@@ -636,7 +636,7 @@ Footer Background
 =================
 */
 #footer {
-	background: #111111;
+	background: #343434;
 }
 
 /*
@@ -694,7 +694,7 @@ input.LV_invalid_field:hover,
 input.LV_invalid_field:active,
 textarea.LV_invalid_field:hover,
 textarea.LV_invalid_field:active {
-	border-color: #b3b3b3;
+	border-color: #696969;
 }
 
 /*
