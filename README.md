@@ -1,5 +1,13 @@
 # AO3 Skins
 
+## Table of Contents
+
+- [AO3 Skins](#ao3-skins)
+	- [Table of Contents](#table-of-contents)
+	- [Overview](#overview)
+	- [Repositories](#repositories)
+	- [License](#license)
+
 ## Overview
 
 Site and Work skins made for [Archive of Our Own](https://archiveofourown.org/).
