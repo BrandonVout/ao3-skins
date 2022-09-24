@@ -13,4 +13,6 @@ Site and Work skins made for [Archive of Our Own](https://archiveofourown.org/).
 
 ## License
 
-Distributed under the [MIT License](./LICENSE). Everyone is free to use and modify these skins however they wish.
+Original skins distributed under the [MIT License](./LICENSE). Everyone is free to use and modify these skins however they wish.
+
+Adapted skins credited in file, licenses may vary.

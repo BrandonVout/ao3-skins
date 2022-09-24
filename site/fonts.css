@@ -1,6 +1,7 @@
 /*
-Copyright (c) 2022 Brandon Vout <http://brandonvout.com>
-Licensed under the MIT License (see LICENSE file).
+@author: Brandon Vout (https://brandonvout.com)
+@copyright: 2022 Brandon Vout
+@license: MIT
 
 My preferred font settings.
 */
@@ -10,7 +11,16 @@ Site font
 Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
 */
 body {
-	font-family: "Noto Sans", "Open Sans", "Droid Sans", "Roboto", -apple-system,
+	font-family: "Noto Sans", "Open Sans", Ubuntu, "Roboto", -apple-system,
+		BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+Datetime font
+Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
+*/
+.datetime {
+	font-family: "Noto Sans", "Open Sans", Ubuntu, "Roboto", -apple-system,
 		BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -22,7 +32,7 @@ Order: E-Reader (Kindle, Google Books), Linux, Android, macOS/iOS, Windows, web 
 blockquote.summary p,
 blockquote.userstuff p,
 li.comment blockquote.userstuff {
-	font-family: Bookerly, Literata, "Noto Serif", "Droid Serif", "Roboto Slab",
+	font-family: Bookerly, Literata, "Noto Serif", "Roboto Slab",
 		-apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 }
 

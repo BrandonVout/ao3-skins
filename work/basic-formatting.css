@@ -1,4 +1,8 @@
-/* Adapted from Basic Formatting skin by AO3, https://archiveofourown.org/skins/229 */
+/*
+Adapted from 'Basic Formatting skin' by AO3, https://archiveofourown.org/skins/229
+@author: AO3 (https://archiveofourown.org)
+@link: (https://archiveofourown.org/skins/229)
+*/
 
 #workskin .indent {
 	padding: 0 5em 0 5em;
@@ -10,7 +14,7 @@
 }
 
 #workskin .dropcap {
-	font-family: Bookerly, Literata, "Noto Serif", "Droid Serif", "Roboto Slab",
+	font-family: Bookerly, Literata, "Noto Serif", "Roboto Slab",
 		-apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 	font-size: 3em;
 }
@@ -34,19 +38,19 @@
 
 /* Order: E-Reader (Kindle, Google Books), Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-serif {
-	font-family: Bookerly, Literata, "Noto Serif", "Droid Serif", "Roboto Slab",
+	font-family: Bookerly, Literata, "Noto Serif", "Roboto Slab",
 		-apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 }
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-sansserif {
-	font-family: "Noto Sans", "Open Sans", "Droid Sans", "Roboto", -apple-system,
+	font-family: "Noto Sans", "Open Sans", Ubuntu, "Roboto", -apple-system,
 		BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-monospace {
-	font-family: "Noto Mono", "Droid Sans Mono", "Roboto Mono", Menlo, Consolas,
+	font-family: "Noto Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Consolas,
 		"Courier New", Courier, monospace;
 }
 

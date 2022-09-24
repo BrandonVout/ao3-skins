@@ -1,12 +1,14 @@
 /*
-=======================================================================
+=============================================================================
+Based on 'Byline redone' by EliotWL
+@author: EliotWL (https://gist.github.com/EliotWL)
+@link: (https://gist.github.com/EliotWL/e37c01bbf53e9cb816f08a3929b23dd4)
+
 Separates tags into bylines.
-Based on Byline redone by EliotWL
-(https://gist.github.com/EliotWL/e37c01bbf53e9cb816f08a3929b23dd4).
-Modified to work better as a parent skin for dark themes.
+Modified to be more compact and work better as a parent skin for dark themes.
 
 Add extra "\a" to content properties to add blank line between bylines.
-=======================================================================
+=============================================================================
 */
 
 ul.tags {
