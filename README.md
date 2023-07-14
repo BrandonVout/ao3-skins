@@ -3,11 +3,11 @@
 ## Table of Contents
 
 - [AO3 Skins](#ao3-skins)
-	- [Table of Contents](#table-of-contents)
-	- [Overview](#overview)
-	- [Usage](#usage)
-	- [Repositories](#repositories)
-	- [License](#license)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Usage](#usage)
+  - [Repositories](#repositories)
+  - [License](#license)
 
 ## Overview
 
@@ -22,7 +22,6 @@ Site and Work skins made for [Archive of Our Own](https://archiveofourown.org/).
    1. Shows site skins by default. If you want to add a work skin, select **My Work Skins** at the top.
 3. **Create Site/Work Skin**.
 4. Copy the code from the file and paste into the CSS field.
-   1. Make sure each css property is on one line. My code editor creates newlines and indents if lines are too long. AO3 does not recognize these.
 5. To add a parent skin, click **Show** next to Advanced.
    1. **Add Parent skin** for each skin.
    2. Type your parent skin's title in the field. Sometimes AO3 suggests skins you don't have access to and will not work.

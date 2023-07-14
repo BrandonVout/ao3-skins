@@ -14,8 +14,7 @@ Adapted from 'Basic Formatting skin' by AO3, https://archiveofourown.org/skins/2
 }
 
 #workskin .dropcap {
-	font-family: Bookerly, Literata, "Noto Serif", "Roboto Slab",
-		-apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
+	font-family: Bookerly, Literata, "Noto Serif", -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 	font-size: 3em;
 }
 
@@ -38,20 +37,17 @@ Adapted from 'Basic Formatting skin' by AO3, https://archiveofourown.org/skins/2
 
 /* Order: E-Reader (Kindle, Google Books), Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-serif {
-	font-family: Bookerly, Literata, "Noto Serif", "Roboto Slab",
-		-apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
+	font-family: Bookerly, Literata, "Noto Serif", -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 }
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-sansserif {
-	font-family: "Noto Sans", "Open Sans", Ubuntu, "Roboto", -apple-system,
-		BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-monospace {
-	font-family: "Noto Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Consolas,
-		"Courier New", Courier, monospace;
+	font-family: "Noto Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Consolas, "Courier New", Courier, monospace;
 }
 
 #workskin .font-big {
