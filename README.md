@@ -30,8 +30,8 @@ Site and Work skins made for [Archive of Our Own](https://archiveofourown.org/).
 
 ## Repositories
 
-- [Github](https://github.com/bvout/ao3-skins)
-- [Gitlab](https://gitlab.com/bvout/ao3-skins)
+- [Github](https://github.com/brandonvout/ao3-skins)
+- [Gitlab](https://gitlab.com/brandonvout/ao3-skins)
 
 ## License
 
