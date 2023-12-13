@@ -74,7 +74,8 @@ textarea:focus,
 .secondary,
 .listbox .index,
 .dashboard .listbox .index,
-.nomination dt {
+.nomination dt,
+#outer {
 	background: #011627;
 }
 
