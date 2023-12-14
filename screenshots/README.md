@@ -18,6 +18,10 @@
 
 ![Night Owl theme on random works page](./night-owl.png "Night Owl Theme")
 
+## Sepia High Contrast
+
+![Sepia High Contrast theme on random works page](./sepia-hc.png "Sepia High Contrast Theme")
+
 ## Solarized
 
 ### Solarized Light
