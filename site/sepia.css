@@ -266,6 +266,13 @@ form blockquote.userstuff {
 	box-shadow: inset 1px 0 5px #654d3380;
 }
 
+form.verbose legend,
+.verbose form legend {
+	background: #f0dec6;
+	border: 2px solid #654d33;
+	box-shadow: 1px 2px 3px #654d3380;
+}
+
 /*
 ==========================================
 Selected Button & Message Background Color
