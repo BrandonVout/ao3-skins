@@ -80,6 +80,15 @@ textarea:focus,
 }
 
 /*
+==============
+Favorites List
+==============
+*/
+.splash .favorite li:nth-of-type(odd) a {
+	background-color: #c0a48c80;
+}
+
+/*
 ====================================
 Tag Link & Dropdown Hover Text Color
 ====================================
