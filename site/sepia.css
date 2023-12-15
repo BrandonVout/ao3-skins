@@ -88,6 +88,11 @@ Favorites List
 	background-color: #c0a48c80;
 }
 
+.splash .favorite li a:hover,
+.splash .favorite li:nth-of-type(odd) a:hover {
+	background-color: #654d33;
+}
+
 /*
 ====================================
 Tag Link & Dropdown Hover Text Color
