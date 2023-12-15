@@ -203,7 +203,8 @@ button,
 	color: #654d33;
 }
 
-.thread .even {
+.thread .even,
+li.unread {
 	background: #c0a48c80;
 }
 
