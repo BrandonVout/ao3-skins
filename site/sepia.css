@@ -117,6 +117,15 @@ a.current,
 }
 
 /*
+============================
+Download/Chapter Menu Border
+============================
+*/
+.secondary {
+	border-color: #654d33;
+}
+
+/*
 ======================
 Form Notice Box Shadow
 ======================
@@ -173,11 +182,15 @@ input[type="submit"],
 button,
 .current,
 .actions label,
-.thread .even,
+/* .thread .even, */
 .system .intro,
 .system .tweet_list {
 	background: #c0a48c;
 	color: #654d33;
+}
+
+.thread .even {
+	background: #c0a48c80;
 }
 
 /*
