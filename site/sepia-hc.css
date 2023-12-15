@@ -204,7 +204,8 @@ button,
 }
 
 .thread .even,
-li.unread {
+li.unread,
+.reading h4.viewed {
 	background: #c0a48c80;
 }
 
