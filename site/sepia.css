@@ -261,6 +261,8 @@ li.comment,
 Button Hover Shadow
 ===================
 */
+.action:hover,
+.action a:hover,
 .actions a:hover,
 .actions input:hover,
 input[type="submit"]:hover {
@@ -520,6 +522,7 @@ Button Border Color
 .actions a,
 .actions a:link,
 .action,
+.action:link,
 .actions input,
 input[type="submit"],
 button,
@@ -706,6 +709,7 @@ Nav Text Color
 #header form,
 #header p,
 #dashboard a:hover,
+.splash .module h3,
 .delete a,
 span.delete,
 span.unread,
@@ -732,6 +736,8 @@ a.cloud8 {
 Button Hover Text Color
 =======================
 */
+input[type="submit"]:hover,
+.action:hover,
 .actions a:hover,
 .actions input:hover {
 	color: #654d33;
