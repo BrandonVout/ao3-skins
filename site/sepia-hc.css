@@ -689,6 +689,11 @@ a.tag:hover {
 	color: #f0dec6;
 }
 
+#dashboard {
+	border-bottom: 10px solid #654d33;
+	border-top: 10px solid #654d33;
+}
+
 /*
 =================
 Footer Background
