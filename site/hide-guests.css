@@ -1,3 +1,11 @@
+/*
+@author: Brandon Vout (https://brandonvout.com)
+@copyright: 2022 Brandon Vout
+@license: MIT
+
+Hides guest comments.
+*/
+
 .guest {
-  display: none !important;
+	display: none !important;
 }
