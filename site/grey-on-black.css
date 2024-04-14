@@ -64,6 +64,7 @@ input:focus,
 select:focus,
 textarea:focus,
 .autocomplete div.dropdown ul,
+.autocomplete div.dropdown,
 #ui-datepicker-div,
 #modal,
 #modal .content,
@@ -75,6 +76,20 @@ textarea:focus,
 .nomination dt,
 #outer {
 	background: #000000;
+}
+
+/*
+==============
+Favorites List
+==============
+*/
+.splash .favorite li:nth-of-type(odd) a {
+	background-color: #666666;
+}
+
+.splash .favorite li a:hover,
+.splash .favorite li:nth-of-type(odd) a:hover {
+	background-color: #000000;
 }
 
 /*
@@ -111,7 +126,16 @@ form dt,
 a.current,
 .current a:visited,
 .search span.tip {
-	border-color: #000000;
+	border-color: #888888;
+}
+
+/*
+============================
+Download/Chapter Menu Border
+============================
+*/
+.secondary {
+	border-color: #888888;
 }
 
 /*
@@ -171,11 +195,17 @@ input[type="submit"],
 button,
 .current,
 .actions label,
-.thread .even,
+/* .thread .even, */
 .system .intro,
 .system .tweet_list {
 	background: #000000;
 	color: #888888;
+}
+
+.thread .even,
+li.unread,
+.reading h4.viewed {
+	background: #888888;
 }
 
 /*
@@ -230,6 +260,8 @@ li.comment,
 Button Hover Shadow
 ===================
 */
+.action:hover,
+.action a:hover,
 .actions a:hover,
 .actions input:hover,
 input[type="submit"]:hover {
@@ -249,6 +281,13 @@ fieldset fieldset dl dl,
 dd.hideme,
 form blockquote.userstuff {
 	box-shadow: inset 1px 0 5px #000000;
+}
+
+form.verbose legend,
+.verbose form legend {
+	background: #000000;
+	border: 2px solid #888888;
+	box-shadow: 1px 2px 3px #000000;
 }
 
 /*
@@ -314,6 +353,7 @@ th,
 tr:hover,
 col.name,
 input,
+input.text,
 textarea,
 #modal .content,
 .actions a,
@@ -433,6 +473,10 @@ ul.notes,
 	background: #000000;
 }
 
+.search span.tip {
+	color: #888888;
+}
+
 /*
 =================
 Search Text Color
@@ -466,6 +510,10 @@ body,
 a.cloud3,
 #header .search input[type="text"] {
 	color: #888888;
+}
+
+.notice {
+	border-color: #888888;
 }
 
 /*
@@ -589,6 +637,16 @@ a.tag,
 }
 
 /*
+============
+Visited Tags
+============
+*/
+a.tag:visited,
+.tags a:visited {
+	color: #888888;
+}
+
+/*
 ==================
 Visited Link Hover
 ==================
@@ -638,6 +696,12 @@ Header & Dropdown/Tag Hover Background
 li.selected,
 a.tag:hover {
 	background: #888888;
+	color: #000000;
+}
+
+#dashboard {
+	border-bottom: 10px solid #888888;
+	border-top: 10px solid #888888;
 }
 
 /*
@@ -647,6 +711,7 @@ Footer Background
 */
 #footer {
 	background: #000000;
+	color: #888888;
 }
 
 /*
@@ -659,6 +724,7 @@ Nav Text Color
 #header form,
 #header p,
 #dashboard a:hover,
+.splash .module h3,
 .delete a,
 span.delete,
 span.unread,
@@ -685,6 +751,8 @@ a.cloud8 {
 Button Hover Text Color
 =======================
 */
+input[type="submit"]:hover,
+.action:hover,
 .actions a:hover,
 .actions input:hover {
 	color: #888888;
@@ -796,6 +864,7 @@ Text & Select
 =============
 */
 input[type="text"],
+input[type="text"].text,
 select {
 	background: #000000;
 	color: #888888;

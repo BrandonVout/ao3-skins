@@ -864,6 +864,26 @@ select {
 }
 
 /*
+=========
+Bold Text
+=========
+*/
+#workskin strong,
+#workskin b {
+	color: #000000;
+}
+
+/*
+===============
+Italicized Text
+===============
+*/
+#workskin em,
+#workskin i {
+	color: #000000;
+}
+
+/*
 ===================================================================
 MUST ADD 'Work Tag Bylines' AS PARENT SKIN TO SEE
 Separates tags into bylines.

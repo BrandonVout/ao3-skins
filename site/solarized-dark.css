@@ -47,6 +47,7 @@ Selection Settings
 ::-moz-selection, /* Firefox legacy selection */
 ::selection {
 	background: #073642;
+	color: #839496;
 }
 
 /*
@@ -65,6 +66,7 @@ input:focus,
 select:focus,
 textarea:focus,
 .autocomplete div.dropdown ul,
+.autocomplete div.dropdown,
 #ui-datepicker-div,
 #modal,
 #modal .content,
@@ -76,6 +78,21 @@ textarea:focus,
 .nomination dt,
 #outer {
 	background: #002b36;
+}
+
+/*
+==============
+Favorites List
+==============
+*/
+.splash .favorite li:nth-of-type(odd) a {
+	background-color: #073642;
+}
+
+.splash .favorite li a:hover,
+.splash .favorite li:nth-of-type(odd) a:hover {
+	background-color: #073642;
+	color: #586e75;
 }
 
 /*
@@ -113,6 +130,15 @@ a.current,
 .current a:visited,
 .search span.tip {
 	border-color: #002b36;
+}
+
+/*
+============================
+Download/Chapter Menu Border
+============================
+*/
+.secondary {
+	border-color: #586e75;
 }
 
 /*
@@ -179,6 +205,12 @@ button,
 	color: #839496;
 }
 
+.thread .even,
+li.unread,
+.reading h4.viewed {
+	background: #073642;
+}
+
 /*
 =================
 Relationship Tags
@@ -231,6 +263,8 @@ li.comment,
 Button Hover Shadow
 ===================
 */
+.action:hover,
+.action a:hover,
 .actions a:hover,
 .actions input:hover,
 input[type="submit"]:hover {
@@ -250,6 +284,13 @@ fieldset fieldset dl dl,
 dd.hideme,
 form blockquote.userstuff {
 	box-shadow: inset 1px 0 5px #002b36;
+}
+
+form.verbose legend,
+.verbose form legend {
+	background: #002b36;
+	border: 2px solid #073642;
+	box-shadow: 1px 2px 3px #002b36;
 }
 
 /*
@@ -315,6 +356,7 @@ th,
 tr:hover,
 col.name,
 input,
+input.text,
 textarea,
 #modal .content,
 .actions a,
@@ -423,6 +465,10 @@ ul.notes,
 	background: #073642;
 }
 
+.search span.tip {
+	color: #839496;
+}
+
 /*
 =================
 Search Text Color
@@ -458,6 +504,10 @@ a.cloud3,
 	color: #839496;
 }
 
+.notice {
+	border-color: #586e75;
+}
+
 /*
 ==================
 Draft Border Color
@@ -475,6 +525,7 @@ Button Border Color
 .actions a,
 .actions a:link,
 .action,
+.action:link,
 .actions input,
 input[type="submit"],
 button,
@@ -579,6 +630,16 @@ a.tag,
 }
 
 /*
+============
+Visited Tags
+============
+*/
+a.tag:visited,
+.tags a:visited {
+	color: #586e75;
+}
+
+/*
 ==================
 Visited Link Hover
 ==================
@@ -628,6 +689,12 @@ Header & Dropdown/Tag Hover Background
 li.selected,
 a.tag:hover {
 	background: #93a1a1;
+	color: #002b36;
+}
+
+#dashboard {
+	border-bottom: 10px solid #586e75;
+	border-top: 10px solid #586e75;
 }
 
 /*
@@ -637,6 +704,7 @@ Footer Background
 */
 #footer {
 	background: #073642;
+	color: #839496;
 }
 
 /*
@@ -649,6 +717,7 @@ Nav Text Color
 #header form,
 #header p,
 #dashboard a:hover,
+.splash .module h3,
 .delete a,
 span.delete,
 span.unread,
@@ -675,6 +744,8 @@ a.cloud8 {
 Button Hover Text Color
 =======================
 */
+input[type="submit"]:hover,
+.action:hover,
 .actions a:hover,
 .actions input:hover {
 	color: #586e75;
@@ -786,6 +857,7 @@ Text & Select
 =============
 */
 input[type="text"],
+input[type="text"].text,
 select {
 	background: #002b36;
 	color: #839496;
