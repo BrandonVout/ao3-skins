@@ -355,6 +355,7 @@ th,
 tr:hover,
 col.name,
 input,
+input.text,
 textarea,
 #modal .content,
 .actions a,
@@ -855,6 +856,7 @@ Text & Select
 =============
 */
 input[type="text"],
+input[type="text"].text,
 select {
 	background: #f0dec6;
 	color: #000000;
