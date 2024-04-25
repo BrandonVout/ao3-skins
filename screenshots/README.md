@@ -28,6 +28,10 @@
 
 ![Sepia High Contrast theme on random works page](./sepia-hc.png "Sepia High Contrast Theme")
 
+### Sepia High Contrast Gradient
+
+![Sepia High Contrast theme on random works page](./sepia-hc-gradient.png "Sepia High Contrast Gradient Theme")
+
 ## Solarized
 
 ### Solarized Light
