@@ -1,5 +1,13 @@
 # Screenshots
 
+## Grey Blue/Green
+
+![Grey Blue/Green theme on random works page](./grey-blue-green.png "Grey Blue/Green Theme")
+
+## Grey Blue/Green Tinted
+
+![Grey Blue/Green Tinted theme on random works page](./grey-blue-green-tint.png "Grey Blue/Green Tinted Theme")
+
 ## Grey On Black
 
 ![Grey On Black theme on random works page](./grey-on-black.png "Grey On Black Theme")
