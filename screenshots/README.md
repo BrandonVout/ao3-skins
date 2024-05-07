@@ -6,13 +6,13 @@
 
 ![Grey Blue theme on random works page](./grey-blue.png "Grey Blue Theme")
 
-### Grey Blue Tint
+### Grey Blue Tinted
 
-![Grey Blue Tint theme on random works page](./grey-blue-tint.png "Grey Blue Tint Theme")
+![Grey Blue Tinted theme on random works page](./grey-blue-tint.png "Grey Blue Tinted Theme")
 
-### Grey Blue Tint Dark
+### Grey Blue Tinted Dark
 
-![Grey Blue Tint Dark theme on random works page](./grey-blue-tint-dark.png "Grey Blue Tint Dark Theme")
+![Grey Blue Tinted Dark theme on random works page](./grey-blue-tint-dark.png "Grey Blue Tinted Dark Theme")
 
 ### Grey Blue/Green
 
@@ -21,6 +21,10 @@
 ### Grey Blue/Green Tinted
 
 ![Grey Blue/Green Tinted theme on random works page](./grey-blue-green-tint.png "Grey Blue/Green Tinted Theme")
+
+### Grey Blue/Green Tinted Dark
+
+![Grey Blue/Green Tinted Dark theme on random works page](./grey-blue-green-tint-dark.png "Grey Blue/Green Tinted Dark Theme")
 
 ## Grey On Black
 
