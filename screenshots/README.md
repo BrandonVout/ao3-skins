@@ -2,7 +2,7 @@
 
 ## Grey Blue
 
-### Grey Blue (Untinted)
+### Grey Blue
 
 ![Grey Blue theme on random works page](./grey-blue.png "Grey Blue Theme")
 
