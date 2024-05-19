@@ -6,6 +6,7 @@
 Improves readability of workskin and work blurbs on desktop without affecting mobile browsers
 */
 
+/* Work body text, summary, and header */
 #workskin {
 	/* Based on width of font's zero (0) */
 	/* --------------------------------- */
@@ -25,4 +26,23 @@ Improves readability of workskin and work blurbs on desktop without affecting mo
 	/* Based on fixed width */
 	/* -------------------- */
 	/* max-width: 640px; */
+
+	/* Using percentages will affect mobile site width, not recommended */
+}
+
+/* Comment section */
+#feedback {
+	margin: auto;
+	max-width: 100ch;
+}
+
+/* Listed works, creates gap between list and filter box */
+/* ol.work.index.group {
+	max-width: 150ch;
+} */
+
+/* Affects layout of entire site between header and footer, going too narrow will make non-work pages unusable */
+#inner {
+	margin: auto;
+	/* max-width: 250ch; */
 }
