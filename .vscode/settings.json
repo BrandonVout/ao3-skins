@@ -1,4 +1,30 @@
 {
-	"cSpell.words": ["Colour", "Robb", "Synthwave", "userstuff", "workskin"],
-	"iis.configDir": ""
+  "cSpell.words": [
+    "brickred",
+    "cherryred",
+    "Colour",
+    "darkmaroon",
+    "darknavy",
+    "darkolive",
+    "darkplum",
+    "dimblue",
+    "dimgreen",
+    "dimorange",
+    "dropcap",
+    "leafgreen",
+    "lightpurple",
+    "mediumskyblue",
+    "midblue",
+    "midviolet",
+    "murkyyellow",
+    "reallydarkgray",
+    "redbrown",
+    "Robb",
+    "sansserif",
+    "Synthwave",
+    "userstuff",
+    "verydarkpurple",
+    "workskin"
+  ],
+  "iis.configDir": ""
 }
