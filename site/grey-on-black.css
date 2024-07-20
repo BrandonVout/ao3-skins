@@ -44,8 +44,8 @@ Selection Settings
 */
 ::-moz-selection, /* Firefox legacy selection */
 ::selection {
-	background: #888888;
-	color: #000000;
+  background: #888888;
+  color: #000000;
 }
 
 /*
@@ -75,7 +75,7 @@ textarea:focus,
 .dashboard .listbox .index,
 .nomination dt,
 #outer {
-	background: #000000;
+  background: #000000;
 }
 
 /*
@@ -84,12 +84,12 @@ Favorites List
 ==============
 */
 .splash .favorite li:nth-of-type(odd) a {
-	background-color: #666666;
+  background-color: #666666;
 }
 
 .splash .favorite li a:hover,
 .splash .favorite li:nth-of-type(odd) a:hover {
-	background-color: #000000;
+  background-color: #000000;
 }
 
 /*
@@ -101,7 +101,7 @@ Tag Link & Dropdown Hover Text Color
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-	color: #000000;
+  color: #000000;
 }
 
 /*
@@ -126,7 +126,7 @@ form dt,
 a.current,
 .current a:visited,
 .search span.tip {
-	border-color: #888888;
+  border-color: #888888;
 }
 
 /*
@@ -135,7 +135,7 @@ Download/Chapter Menu Border
 ============================
 */
 .secondary {
-	border-color: #888888;
+  border-color: #888888;
 }
 
 /*
@@ -145,7 +145,7 @@ Form Notice Box Shadow
 */
 form .notice,
 form ul.notes {
-	box-shadow: 0px 0 3px #000000;
+  box-shadow: 0px 0 3px #000000;
 }
 
 /*
@@ -155,7 +155,7 @@ Nav Menu Link Text Color
 */
 #header .primary a,
 #header h2 {
-	color: #000000;
+  color: #000000;
 }
 
 /*
@@ -166,7 +166,7 @@ Footer Link Text Color
 #footer ul,
 #footer a,
 #footer .heading {
-	color: #888888;
+  color: #888888;
 }
 
 /*
@@ -176,7 +176,7 @@ Header Dropdown Hover Background Color
 */
 #header .dropdown .menu a:hover,
 #header .dropdown .menu a:focus {
-	background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 /*
@@ -198,14 +198,14 @@ button,
 /* .thread .even, */
 .system .intro,
 .system .tweet_list {
-	background: #000000;
-	color: #888888;
+  background: #000000;
+  color: #888888;
 }
 
 .thread .even,
 li.unread,
 .reading h4.viewed {
-	background: #888888;
+  background: #888888;
 }
 
 /*
@@ -215,8 +215,8 @@ Relationship Tags
 */
 /*li.relationships,*/
 li.relationships a {
-	background: #000000;
-	color: #666666;
+  background: #000000;
+  color: #666666;
 }
 
 /*
@@ -225,7 +225,7 @@ Link Hover Text Color
 =====================
 */
 a:hover {
-	color: #aaaaaa;
+  color: #aaaaaa;
 }
 
 /*
@@ -252,7 +252,7 @@ li.comment,
 .actions a:hover,
 .actions input:hover,
 .userstuff blockquote {
-	border-color: #000000;
+  border-color: #000000;
 }
 
 /*
@@ -265,7 +265,7 @@ Button Hover Shadow
 .actions a:hover,
 .actions input:hover,
 input[type="submit"]:hover {
-	box-shadow: inset 1px 1px 3px #000;
+  box-shadow: inset 1px 1px 3px #000;
 }
 
 /*
@@ -280,14 +280,14 @@ fieldset fieldset fieldset,
 fieldset fieldset dl dl,
 dd.hideme,
 form blockquote.userstuff {
-	box-shadow: inset 1px 0 5px #000000;
+  box-shadow: inset 1px 0 5px #000000;
 }
 
 form.verbose legend,
 .verbose form legend {
-	background: #000000;
-	border: 2px solid #888888;
-	box-shadow: 1px 2px 3px #000000;
+  background: #000000;
+  border: 2px solid #888888;
+  box-shadow: 1px 2px 3px #000000;
 }
 
 /*
@@ -311,7 +311,7 @@ dl.index dd,
 .child,
 .unwrangled,
 .unreviewed {
-	background: #000000;
+  background: #000000;
 }
 
 /*
@@ -328,7 +328,7 @@ button,
 .actions label,
 a.cloud4,
 a.cloud5 {
-	color: #888888;
+  color: #888888;
 }
 
 /*
@@ -338,7 +338,7 @@ Visited Link Color
 */
 a:visited,
 a.cloud6 {
-	color: #666666;
+  color: #666666;
 }
 
 /*
@@ -374,7 +374,7 @@ dl.meta,
 .picture .header,
 .bookmark .user,
 ul.notes {
-	border-color: #000000;
+  border-color: #000000;
 }
 
 /*
@@ -384,10 +384,10 @@ Text Area
 */
 input,
 textarea {
-	background: #000000;
-	border-color: #888888;
-	box-shadow: inset 0 1px 2px #000000;
-	color: #888888;
+  background: #000000;
+  border-color: #888888;
+  box-shadow: inset 0 1px 2px #000000;
+  color: #888888;
 }
 
 /*
@@ -396,9 +396,9 @@ Text Area Background
 ====================
 */
 textarea {
-	background: #000000;
-	border-color: #888888;
-	color: #888888;
+  background: #000000;
+  border-color: #888888;
+  color: #888888;
 }
 
 /*
@@ -410,7 +410,7 @@ li.blurb,
 .blurb .blurb,
 .listbox .index,
 .dashboard .listbox .index {
-	box-shadow: inset 1px 1px 3px #000000;
+  box-shadow: inset 1px 1px 3px #000000;
 }
 
 /*
@@ -419,7 +419,7 @@ Dropdown Shadow
 ===============
 */
 .autocomplete div.dropdown ul {
-	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 /*
@@ -431,7 +431,7 @@ Menu Shadow
 #small_login,
 #header .dropdown:hover .current + .menu,
 #greeting .menu {
-	box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.5);
 }
 
 /*
@@ -470,11 +470,11 @@ fieldset fieldset.listbox,
 .comment_error,
 ul.notes,
 .system .tweet_list li:nth-child(even) {
-	background: #000000;
+  background: #000000;
 }
 
 .search span.tip {
-	color: #888888;
+  color: #888888;
 }
 
 /*
@@ -509,11 +509,11 @@ body,
 .filters .expander,
 a.cloud3,
 #header .search input[type="text"] {
-	color: #888888;
+  color: #888888;
 }
 
 .notice {
-	border-color: #888888;
+  border-color: #888888;
 }
 
 /*
@@ -522,7 +522,7 @@ Draft Border Color
 ==================
 */
 .draft {
-	border-color: #888888;
+  border-color: #888888;
 }
 
 /*
@@ -540,7 +540,7 @@ button,
 span.unread,
 .replied,
 span.claimed {
-	border-color: #888888;
+  border-color: #888888;
 }
 
 /*
@@ -549,7 +549,7 @@ Current Tab Border Color
 ========================
 */
 .current {
-	border-bottom-color: #888888;
+  border-bottom-color: #888888;
 }
 
 /*
@@ -561,7 +561,7 @@ Button Hover Border Color
 .actions input:hover,
 input[type="submit"]:hover,
 button:hover {
-	border-color: #000000;
+  border-color: #000000;
 }
 
 /*
@@ -573,7 +573,7 @@ Sortable Shadow
 .secondary,
 .wrapper,
 .ui-draggable form {
-	box-shadow: 1px 1px 5px #000;
+  box-shadow: 1px 1px 5px #000;
 }
 
 /*
@@ -583,7 +583,7 @@ Delete Shadow
 */
 .delete a,
 span.delete {
-	box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.75);
 }
 
 /*
@@ -592,7 +592,7 @@ Modal Background Color
 ======================
 */
 #modal_bg {
-	background: #eee8d5;
+  background: #eee8d5;
 }
 
 /*
@@ -623,7 +623,7 @@ a.current,
 .current a:visited,
 a.cloud1,
 a.cloud2 {
-	color: #888888;
+  color: #888888;
 }
 
 /*
@@ -633,7 +633,7 @@ Tags
 */
 a.tag,
 .tags a {
-	color: #666666;
+  color: #666666;
 }
 
 /*
@@ -643,7 +643,7 @@ Visited Tags
 */
 a.tag:visited,
 .tags a:visited {
-	color: #888888;
+  color: #888888;
 }
 
 /*
@@ -652,7 +652,7 @@ Visited Link Hover
 ==================
 */
 a:visited:hover {
-	color: #888888;
+  color: #888888;
 }
 
 /*
@@ -661,7 +661,7 @@ Visited Tag Hover
 =================
 */
 a.tag:visited:hover {
-	color: #000000;
+  color: #000000;
 }
 
 /*
@@ -671,7 +671,7 @@ Nav Menu Item Border
 */
 #header .menu li,
 .userstuff h3 {
-	border-color: #888888;
+  border-color: #888888;
 }
 
 /*
@@ -683,7 +683,7 @@ Active/Selected Button Shadow
 .current,
 a.current,
 .current a:visited {
-	box-shadow: inset 1px 1px 3px #000;
+  box-shadow: inset 1px 1px 3px #000;
 }
 
 /*
@@ -695,13 +695,13 @@ Header & Dropdown/Tag Hover Background
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-	background: #888888;
-	color: #000000;
+  background: #888888;
+  color: #000000;
 }
 
 #dashboard {
-	border-bottom: 10px solid #888888;
-	border-top: 10px solid #888888;
+  border-bottom: 10px solid #888888;
+  border-top: 10px solid #888888;
 }
 
 /*
@@ -710,8 +710,8 @@ Footer Background
 =================
 */
 #footer {
-	background: #000000;
-	color: #888888;
+  background: #000000;
+  color: #888888;
 }
 
 /*
@@ -743,7 +743,7 @@ a.work,
 .error,
 a.cloud7,
 a.cloud8 {
-	color: #888888;
+  color: #888888;
 }
 
 /*
@@ -755,7 +755,7 @@ input[type="submit"]:hover,
 .action:hover,
 .actions a:hover,
 .actions input:hover {
-	color: #888888;
+  color: #888888;
 }
 
 /*
@@ -772,7 +772,7 @@ input.LV_invalid_field:hover,
 input.LV_invalid_field:active,
 textarea.LV_invalid_field:hover,
 textarea.LV_invalid_field:active {
-	border-color: #888888;
+  border-color: #888888;
 }
 
 /*
@@ -813,7 +813,7 @@ fieldset.comments,
 .userstuff thead td,
 .userstuff th a,
 .userstuff th a:link {
-	background: transparent;
+  background: transparent;
 }
 
 /*
@@ -844,7 +844,7 @@ fieldset fieldset.listbox,
 .listbox li.blurb,
 fieldset.comments,
 dl.nomination {
-	box-shadow: none;
+  box-shadow: none;
 }
 
 /*
@@ -855,7 +855,7 @@ No Text Shadow
 h2,
 .system p#signup,
 #header h2 {
-	text-shadow: none;
+  text-shadow: none;
 }
 
 /*
@@ -866,9 +866,9 @@ Text & Select
 input[type="text"],
 input[type="text"].text,
 select {
-	background: #000000;
-	color: #888888;
-	border-color: #888888;
+  background: #000000;
+  color: #888888;
+  border-color: #888888;
 }
 
 /*
@@ -878,7 +878,7 @@ Bold Text
 */
 #workskin strong,
 #workskin b {
-	color: #888888;
+  color: #888888;
 }
 
 /*
@@ -888,7 +888,7 @@ Italicized Text
 */
 #workskin em,
 #workskin i {
-	color: #888888;
+  color: #888888;
 }
 
 /*
@@ -900,20 +900,20 @@ Based on Byline redone by EliotWL
 ===================================================================
 */
 ul.tags li.warnings:first-child:before {
-	color: #888888;
+  color: #888888;
 }
 
 li.warnings + li.relationships:before {
-	color: #888888;
+  color: #888888;
 }
 
 li.warnings + li.characters:before,
 li.relationships + li.characters:before {
-	color: #888888;
+  color: #888888;
 }
 
 li.warnings + li.freeforms:before,
 li.relationships + li.freeforms:before,
 li.characters + li.freeforms:before {
-	color: #888888;
+  color: #888888;
 }

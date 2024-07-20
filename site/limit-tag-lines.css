@@ -9,7 +9,7 @@ scrollbox can be personalized by changing the "max-height" variable.
 */
 
 li.blurb .tags {
-	/* max-height = n + (n / 2), where n = number of lines of tags to show */
-	max-height: 12em; /* 8 + (8 / 2) */
-	overflow-y: auto;
+  /* max-height = n + (n / 2), where n = number of lines of tags to show */
+  max-height: 12em; /* 8 + (8 / 2) */
+  overflow-y: auto;
 }

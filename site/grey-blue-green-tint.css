@@ -46,8 +46,8 @@ Selection Settings
 */
 ::-moz-selection, /* Firefox legacy selection */
 ::selection {
-	background: #10789590;
-	color: #ffffff;
+  background: #10789590;
+  color: #ffffff;
 }
 
 /*
@@ -77,7 +77,7 @@ textarea:focus,
 .dashboard .listbox .index,
 .nomination dt,
 #outer {
-	background: #cfe4ea;
+  background: #cfe4ea;
 }
 
 /*
@@ -86,12 +86,12 @@ Favorites List
 ==============
 */
 .splash .favorite li:nth-of-type(odd) a {
-	background-color: #4997ad80;
+  background-color: #4997ad80;
 }
 
 .splash .favorite li a:hover,
 .splash .favorite li:nth-of-type(odd) a:hover {
-	background-color: #107895;
+  background-color: #107895;
 }
 
 /*
@@ -103,7 +103,7 @@ Tag Link & Dropdown Hover Text Color
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-	color: #cfe4ea;
+  color: #cfe4ea;
 }
 
 /*
@@ -128,7 +128,7 @@ form dt,
 a.current,
 .current a:visited,
 .search span.tip {
-	border-color: #cfe4ea;
+  border-color: #cfe4ea;
 }
 
 /*
@@ -137,7 +137,7 @@ Download/Chapter Menu Border
 ============================
 */
 .secondary {
-	border-color: #107895;
+  border-color: #107895;
 }
 
 /*
@@ -147,7 +147,7 @@ Form Notice Box Shadow
 */
 form .notice,
 form ul.notes {
-	box-shadow: 0px 0 3px #cfe4ea;
+  box-shadow: 0px 0 3px #cfe4ea;
 }
 
 /*
@@ -157,7 +157,7 @@ Nav Menu Link Text Color
 */
 #header .primary a,
 #header h2 {
-	color: #cfe4ea;
+  color: #cfe4ea;
 }
 
 /*
@@ -168,7 +168,7 @@ Footer Link Text Color
 #footer ul,
 #footer a,
 #footer .heading {
-	color: #1e2325;
+  color: #1e2325;
 }
 
 /*
@@ -178,7 +178,7 @@ Header Dropdown Hover Background Color
 */
 #header .dropdown .menu a:hover,
 #header .dropdown .menu a:focus {
-	background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 /*
@@ -200,14 +200,14 @@ button,
 /* .thread .even, */
 .system .intro,
 .system .tweet_list {
-	background: #4997ad;
-	color: #1e2325;
+  background: #4997ad;
+  color: #1e2325;
 }
 
 .thread .even,
 li.unread,
 .reading h4.viewed {
-	background: #4997ad80;
+  background: #4997ad80;
 }
 
 /*
@@ -217,8 +217,8 @@ Relationship Tags
 */
 /*li.relationships,*/
 li.relationships a {
-	background: #4997ad80;
-	color: #107895;
+  background: #4997ad80;
+  color: #107895;
 }
 
 /*
@@ -227,7 +227,7 @@ Link Hover Text Color
 =====================
 */
 a:hover {
-	color: #032f62;
+  color: #032f62;
 }
 
 /*
@@ -254,7 +254,7 @@ li.comment,
 .actions a:hover,
 .actions input:hover,
 .userstuff blockquote {
-	border-color: #4997ad;
+  border-color: #4997ad;
 }
 
 /*
@@ -267,7 +267,7 @@ Button Hover Shadow
 .actions a:hover,
 .actions input:hover,
 input[type="submit"]:hover {
-	box-shadow: inset 1px 1px 3px #000;
+  box-shadow: inset 1px 1px 3px #000;
 }
 
 /*
@@ -282,14 +282,14 @@ fieldset fieldset fieldset,
 fieldset fieldset dl dl,
 dd.hideme,
 form blockquote.userstuff {
-	box-shadow: inset 1px 0 5px #10789580;
+  box-shadow: inset 1px 0 5px #10789580;
 }
 
 form.verbose legend,
 .verbose form legend {
-	background: #cfe4ea;
-	border: 2px solid #107895;
-	box-shadow: 1px 2px 3px #10789580;
+  background: #cfe4ea;
+  border: 2px solid #107895;
+  box-shadow: 1px 2px 3px #10789580;
 }
 
 /*
@@ -313,7 +313,7 @@ dl.index dd,
 .child,
 .unwrangled,
 .unreviewed {
-	background: #4997ad;
+  background: #4997ad;
 }
 
 /*
@@ -330,7 +330,7 @@ button,
 .actions label,
 a.cloud4,
 a.cloud5 {
-	color: #1e2325;
+  color: #1e2325;
 }
 
 /*
@@ -340,7 +340,7 @@ Visited Link Color
 */
 a:visited,
 a.cloud6 {
-	color: #6f42c1;
+  color: #6f42c1;
 }
 
 /*
@@ -376,7 +376,7 @@ dl.meta,
 .picture .header,
 .bookmark .user,
 ul.notes {
-	border-color: #4997ad;
+  border-color: #4997ad;
 }
 
 /*
@@ -386,10 +386,10 @@ Text Area
 */
 input,
 textarea {
-	background: #cfe4ea;
-	border-color: #107895;
-	box-shadow: inset 0 1px 2px #4997ad;
-	color: #1e2325;
+  background: #cfe4ea;
+  border-color: #107895;
+  box-shadow: inset 0 1px 2px #4997ad;
+  color: #1e2325;
 }
 
 /*
@@ -401,7 +401,7 @@ li.blurb,
 .blurb .blurb,
 .listbox .index,
 .dashboard .listbox .index {
-	box-shadow: inset 1px 1px 3px #4997ad;
+  box-shadow: inset 1px 1px 3px #4997ad;
 }
 
 /*
@@ -410,7 +410,7 @@ Dropdown Shadow
 ===============
 */
 .autocomplete div.dropdown ul {
-	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 /*
@@ -422,7 +422,7 @@ Menu Shadow
 #small_login,
 #header .dropdown:hover .current + .menu,
 #greeting .menu {
-	box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.5);
 }
 
 /*
@@ -461,11 +461,11 @@ fieldset fieldset.listbox,
 .comment_error,
 ul.notes,
 .system .tweet_list li:nth-child(even) {
-	background: #4997ad;
+  background: #4997ad;
 }
 
 .search span.tip {
-	color: #1e2325;
+  color: #1e2325;
 }
 
 /*
@@ -500,11 +500,11 @@ body,
 .filters .expander,
 a.cloud3,
 #header .search input[type="text"] {
-	color: #1e2325;
+  color: #1e2325;
 }
 
 .notice {
-	border-color: #107895;
+  border-color: #107895;
 }
 
 /*
@@ -513,7 +513,7 @@ Draft Border Color
 ==================
 */
 .draft {
-	border-color: #107895;
+  border-color: #107895;
 }
 
 /*
@@ -532,7 +532,7 @@ button,
 span.unread,
 .replied,
 span.claimed {
-	border-color: #107895;
+  border-color: #107895;
 }
 
 /*
@@ -541,7 +541,7 @@ Current Tab Border Color
 ========================
 */
 .current {
-	border-bottom-color: #107895;
+  border-bottom-color: #107895;
 }
 
 /*
@@ -553,7 +553,7 @@ Button Hover Border Color
 .actions input:hover,
 input[type="submit"]:hover,
 button:hover {
-	border-color: #4997ad;
+  border-color: #4997ad;
 }
 
 /*
@@ -565,7 +565,7 @@ Sortable Shadow
 .secondary,
 .wrapper,
 .ui-draggable form {
-	box-shadow: 1px 1px 5px #000;
+  box-shadow: 1px 1px 5px #000;
 }
 
 /*
@@ -575,7 +575,7 @@ Delete Shadow
 */
 .delete a,
 span.delete {
-	box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.75);
 }
 
 /*
@@ -584,7 +584,7 @@ Modal Background Color
 ======================
 */
 #modal_bg {
-	background: #eee8d5;
+  background: #eee8d5;
 }
 
 /*
@@ -615,7 +615,7 @@ a.current,
 .current a:visited,
 a.cloud1,
 a.cloud2 {
-	color: #1e2325;
+  color: #1e2325;
 }
 
 /*
@@ -625,7 +625,7 @@ Tags
 */
 a.tag,
 .tags a {
-	color: #107895;
+  color: #107895;
 }
 
 /*
@@ -635,7 +635,7 @@ Visited Tags
 */
 a.tag:visited,
 .tags a:visited {
-	color: #6f42c1;
+  color: #6f42c1;
 }
 
 /*
@@ -644,7 +644,7 @@ Visited Link Hover
 ==================
 */
 a:visited:hover {
-	color: #1e2325;
+  color: #1e2325;
 }
 
 /*
@@ -653,7 +653,7 @@ Visited Tag Hover
 =================
 */
 a.tag:visited:hover {
-	color: #4997ad;
+  color: #4997ad;
 }
 
 /*
@@ -663,7 +663,7 @@ Nav Menu Item Border
 */
 #header .menu li,
 .userstuff h3 {
-	border-color: #1e2325;
+  border-color: #1e2325;
 }
 
 /*
@@ -675,7 +675,7 @@ Active/Selected Button Shadow
 .current,
 a.current,
 .current a:visited {
-	box-shadow: inset 1px 1px 3px #000;
+  box-shadow: inset 1px 1px 3px #000;
 }
 
 /*
@@ -687,13 +687,13 @@ Header & Dropdown/Tag Hover Background
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-	background: #107895;
-	color: #cfe4ea;
+  background: #107895;
+  color: #cfe4ea;
 }
 
 #dashboard {
-	border-bottom: 10px solid #107895;
-	border-top: 10px solid #107895;
+  border-bottom: 10px solid #107895;
+  border-top: 10px solid #107895;
 }
 
 /*
@@ -702,8 +702,8 @@ Footer Background
 =================
 */
 #footer {
-	background: #4997ad;
-	color: #107895;
+  background: #4997ad;
+  color: #107895;
 }
 
 /*
@@ -735,7 +735,7 @@ a.work,
 .error,
 a.cloud7,
 a.cloud8 {
-	color: #107895;
+  color: #107895;
 }
 
 /*
@@ -747,7 +747,7 @@ input[type="submit"]:hover,
 .action:hover,
 .actions a:hover,
 .actions input:hover {
-	color: #107895;
+  color: #107895;
 }
 
 /*
@@ -764,7 +764,7 @@ input.LV_invalid_field:hover,
 input.LV_invalid_field:active,
 textarea.LV_invalid_field:hover,
 textarea.LV_invalid_field:active {
-	border-color: #107895;
+  border-color: #107895;
 }
 
 /*
@@ -805,7 +805,7 @@ fieldset.comments,
 .userstuff thead td,
 .userstuff th a,
 .userstuff th a:link {
-	background: transparent;
+  background: transparent;
 }
 
 /*
@@ -836,7 +836,7 @@ fieldset fieldset.listbox,
 .listbox li.blurb,
 fieldset.comments,
 dl.nomination {
-	box-shadow: none;
+  box-shadow: none;
 }
 
 /*
@@ -847,7 +847,7 @@ No Text Shadow
 h2,
 .system p#signup,
 #header h2 {
-	text-shadow: none;
+  text-shadow: none;
 }
 
 /*
@@ -858,9 +858,9 @@ Text & Select
 input[type="text"],
 input[type="text"].text,
 select {
-	background: #cfe4ea;
-	color: #1e2325;
-	border-color: #107895;
+  background: #cfe4ea;
+  color: #1e2325;
+  border-color: #107895;
 }
 
 /*
@@ -870,7 +870,7 @@ Bold Text
 */
 #workskin strong,
 #workskin b {
-	color: #1e2325;
+  color: #1e2325;
 }
 
 /*
@@ -880,7 +880,7 @@ Italicized Text
 */
 #workskin em,
 #workskin i {
-	color: #1e2325;
+  color: #1e2325;
 }
 
 /*
@@ -892,20 +892,20 @@ Based on Byline redone by EliotWL
 ===================================================================
 */
 ul.tags li.warnings:first-child:before {
-	color: #107895;
+  color: #107895;
 }
 
 li.warnings + li.relationships:before {
-	color: #107895;
+  color: #107895;
 }
 
 li.warnings + li.characters:before,
 li.relationships + li.characters:before {
-	color: #107895;
+  color: #107895;
 }
 
 li.warnings + li.freeforms:before,
 li.relationships + li.freeforms:before,
 li.characters + li.freeforms:before {
-	color: #107895;
+  color: #107895;
 }

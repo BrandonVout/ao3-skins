@@ -7,5 +7,5 @@ Hides guest comments.
 */
 
 .guest {
-	display: none !important;
+  display: none !important;
 }
