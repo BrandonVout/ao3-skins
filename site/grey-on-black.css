@@ -74,6 +74,7 @@ textarea:focus,
 .listbox .index,
 .dashboard .listbox .index,
 .nomination dt,
+div.bookmark,
 #outer {
   background: #000000;
 }

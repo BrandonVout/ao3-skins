@@ -76,6 +76,7 @@ textarea:focus,
 .listbox .index,
 .dashboard .listbox .index,
 .nomination dt,
+div.bookmark,
 #outer {
   background: #f0dec6;
   background: linear-gradient(135deg, #f0dec6, #c0a48c);
