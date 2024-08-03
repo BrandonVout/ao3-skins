@@ -89,9 +89,12 @@ Homepage
 ========
 */
 
+.system .latest h3,
+.system div.news h3,
 .splash .module h3,
 .splash .news li {
   border-bottom: 1px solid #c0a48c;
+  border-color: #c0a48c;
 }
 
 /*
@@ -382,8 +385,6 @@ button,
 span.unread,
 .replied,
 span.claimed,
-.system .latest h3,
-.system div.news h3,
 .listbox,
 fieldset fieldset.listbox,
 dl.meta,

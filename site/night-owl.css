@@ -61,6 +61,7 @@ Homepage
 .splash .module h3,
 .splash .news li {
   border-bottom: 1px solid #5f7e97;
+  border-color: #5f7e97;
 }
 
 /*
@@ -382,8 +383,6 @@ button,
 span.unread,
 .replied,
 span.claimed,
-.system .latest h3,
-.system div.news h3,
 .listbox,
 fieldset fieldset.listbox,
 dl.meta,
