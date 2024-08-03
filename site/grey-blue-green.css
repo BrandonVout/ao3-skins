@@ -51,6 +51,17 @@ Selection Settings
 }
 
 /*
+========
+Homepage
+========
+*/
+
+.splash .module h3,
+.splash .news li {
+  border-bottom: 1px solid #4997ad;
+}
+
+/*
 ===============
 Page Background
 ===============

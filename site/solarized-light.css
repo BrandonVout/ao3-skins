@@ -82,6 +82,19 @@ div.bookmark,
 }
 
 /*
+========
+Homepage
+========
+*/
+
+.system .latest h3,
+.system div.news h3,
+.splash .module h3,
+.splash .news li {
+  border-bottom: 1px solid #93a1a1;
+}
+
+/*
 ==============
 Favorites List
 ==============
