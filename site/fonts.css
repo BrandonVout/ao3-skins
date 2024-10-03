@@ -34,7 +34,8 @@ tt,
 code,
 var,
 pre,
-samp {
+samp,
+.splash .news .meta {
   font-family: "JetBrains Mono", "Cascadia Code", "Source Code Pro", "Noto Sans Mono", Menlo, Consolas, monospace;
 }
 
