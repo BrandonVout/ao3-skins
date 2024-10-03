@@ -9,6 +9,7 @@ My preferred font settings.
 /*
 Site font
 Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
+Add "-apple-system, BlinkMacSystemFont," for current macOS default sans-serif font, "San Francisco / SF Pro".
 */
 body {
   font-family: Inter, "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -17,6 +18,7 @@ body {
 /*
 Datetime font
 Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
+Add "-apple-system, BlinkMacSystemFont," for current macOS default sans-serif font, "San Francisco / SF Pro".
 */
 .datetime {
   font-family: Inter, "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -25,6 +27,7 @@ Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
 /*
 Monospace Font
 Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
+Add "-apple-system-ui-monospace, ui-monospace," for current macOS default monospace font, "SF Mono".
 */
 kbd,
 tt,
@@ -38,6 +41,7 @@ samp {
 /*
 Font for stories and summaries
 Order: E-Reader (Kindle, Google Books), Linux, Android, macOS/iOS, Windows, web safe, browser default
+Add "-apple-system-ui-serif, ui-serif," for current macOS default serif font, "New York".
 */
 #workskin,
 blockquote.summary p,
