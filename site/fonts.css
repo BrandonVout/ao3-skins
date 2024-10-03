@@ -11,7 +11,9 @@ Site font
 Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
 Add "system-ui" for current macOS default sans-serif font, "San Francisco / SF Pro".
 */
-body {
+body,
+blockquote.userstuff p,
+li.comment blockquote.userstuff {
   font-family: Inter, "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -46,8 +48,7 @@ Add "ui-serif" for current macOS default serif font, "New York".
 */
 #workskin,
 blockquote.summary p,
-blockquote.userstuff p,
-li.comment blockquote.userstuff,
+div.summary blockquote.userstuff p,
 h1,
 h2,
 h3,
