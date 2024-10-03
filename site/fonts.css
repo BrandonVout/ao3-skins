@@ -11,7 +11,7 @@ Site font
 Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
 */
 body {
-  font-family: "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Inter, "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -19,7 +19,7 @@ Datetime font
 Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
 */
 .datetime {
-  font-family: "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Inter, "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -34,19 +34,19 @@ li.comment blockquote.userstuff {
 }
 
 /* Font size for work boxes (tags, title, author, etc.) */
-li.comment blockquote.userstuff,
+/* li.comment blockquote.userstuff,
 li.work,
 ul.tags {
   font-size: 14px;
-}
+} */
 
 /* Font size for summaries in works and bookmarks */
-blockquote.summary p,
+/* blockquote.summary p,
 blockquote.userstuff p {
   font-size: 15px;
-}
+} */
 
 /* Story font size */
-#workskin {
+/* #workskin {
   font-size: 16px;
-}
+} */
