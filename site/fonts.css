@@ -23,6 +23,19 @@ Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
 }
 
 /*
+Monospace Font
+Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
+*/
+kbd,
+tt,
+code,
+var,
+pre,
+samp {
+  font-family: "JetBrains Mono", "Cascadia Code", "Source Code Pro", "Noto Sans Mono", Menlo, Consolas, monospace;
+}
+
+/*
 Font for stories and summaries
 Order: E-Reader (Kindle, Google Books), Linux, Android, macOS/iOS, Windows, web safe, browser default
 */
