@@ -47,7 +47,14 @@ Add "ui-serif" for current macOS default serif font, "New York".
 #workskin,
 blockquote.summary p,
 blockquote.userstuff p,
-li.comment blockquote.userstuff {
+li.comment blockquote.userstuff,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
   font-family: Bookerly, Literata, "Noto Serif", ui-serif, Georgia, Palatino, serif;
 }
 
