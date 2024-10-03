@@ -13,7 +13,8 @@ Add "system-ui" for current macOS default sans-serif font, "San Francisco / SF P
 */
 body,
 blockquote.userstuff p,
-li.comment blockquote.userstuff {
+li.comment blockquote.userstuff,
+.fandoms.heading {
   font-family: Inter, "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
