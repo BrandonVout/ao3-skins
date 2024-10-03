@@ -1,3 +1,11 @@
+/*
+@author: Brandon Vout (https://brandonvout.com)
+@copyright: 2023 Brandon Vout
+@license: MIT
+
+Improves readability of workskin and work blurbs on desktop without affecting mobile browsers
+*/
+
 p.muted.notice {
   display: none;
 }
