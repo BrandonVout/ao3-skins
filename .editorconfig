@@ -5,14 +5,14 @@ root = true
 
 # all files
 [*]
-indent_style = space
-indent_size = 2
+indent_style = tab
+# indent_size = 2
 # tab_width = 2
 charset = utf-8
 trim_trailing_whitespace = true
 end_of_line = lf
 insert_final_newline = true
-max_line_length = 120
+max_line_length = 160
 
 # markdown files
 [*.md]

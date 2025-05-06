@@ -6,17 +6,17 @@
 */
 
 #workskin hr {
-  background: none;
-  border: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  color: inherit;
+	background: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: inherit;
 }
 
 #workskin hr::after {
-  content: "~*~";
-  display: block;
-  line-height: 1;
-  text-align: center;
+	content: "~*~";
+	display: block;
+	line-height: 1;
+	text-align: center;
 }

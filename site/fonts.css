@@ -16,7 +16,7 @@ blockquote.userstuff p,
 li.comment blockquote.userstuff,
 .fandoms.heading,
 .viewed.heading {
-  font-family: "Adwaita Sans", Inter, "Noto Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Adwaita Sans", Inter, "Noto Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -25,7 +25,7 @@ Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default
 Add "system-ui" for current macOS default sans-serif font, "San Francisco / SF Pro".
 */
 .datetime {
-  font-family: "Adwaita Sans", Inter, "Noto Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Adwaita Sans", Inter, "Noto Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -40,7 +40,7 @@ var,
 pre,
 samp,
 .splash .news .meta {
-  font-family: "Adwaita Mono", "JetBrains Mono", "Cascadia Code", "Noto Sans Mono", Menlo, Consolas, monospace;
+	font-family: "Adwaita Mono", "JetBrains Mono", "Cascadia Code", "Noto Sans Mono", Menlo, Consolas, monospace;
 }
 
 /*
@@ -58,7 +58,7 @@ h4,
 h5,
 h6,
 .heading {
-  font-family: Bookerly, Literata, "Noto Serif", ui-serif, Georgia, Palatino, serif;
+	font-family: Bookerly, Literata, "Noto Serif", ui-serif, Georgia, Palatino, serif;
 }
 
 /* Font size for work boxes (tags, title, author, etc.) */
