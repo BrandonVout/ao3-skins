@@ -1,22 +1,22 @@
 /*
-  Custom section breaks, replaces horizontal rulers
-  Adapted from a snippet from u/Far_Bobcat3967
-  @author: u/Far_Bobcat3967 (https://www.reddit.com/user/Far_Bobcat3967/)
-  @link: (https://www.reddit.com/r/AO3/comments/1eioq9t/custom_skin_for_section_breaks_makes_everything/)
+    Custom section breaks, replaces horizontal rulers
+    Adapted from a snippet from u/Far_Bobcat3967
+    @author: u/Far_Bobcat3967 (https://www.reddit.com/user/Far_Bobcat3967/)
+    @link: (https://www.reddit.com/r/AO3/comments/1eioq9t/custom_skin_for_section_breaks_makes_everything/)
 */
 
 #workskin hr {
-	background: none;
-	border: 0;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	color: inherit;
+    background: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: inherit;
 }
 
 #workskin hr::after {
-	content: "~*~";
-	display: block;
-	line-height: 1;
-	text-align: center;
+    content: "~*~";
+    display: block;
+    line-height: 1;
+    text-align: center;
 }

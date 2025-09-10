@@ -4,20 +4,20 @@ Add to the end of the respective theme from https://draculatheme.com/archive-of-
 */
 
 ul.tags li.warnings:first-child:before {
-	color: #50fa7b;
+    color: #50fa7b;
 }
 
 li.warnings + li.relationships:before {
-	color: #50fa7b;
+    color: #50fa7b;
 }
 
 li.warnings + li.characters:before,
 li.relationships + li.characters:before {
-	color: #50fa7b;
+    color: #50fa7b;
 }
 
 li.warnings + li.freeforms:before,
 li.relationships + li.freeforms:before,
 li.characters + li.freeforms:before {
-	color: #50fa7b;
+    color: #50fa7b;
 }

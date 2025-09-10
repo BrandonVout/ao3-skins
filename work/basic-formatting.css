@@ -5,79 +5,79 @@ Adapted from 'Basic Formatting skin' by AO3, https://archiveofourown.org/skins/2
 */
 
 #workskin .indent {
-	padding: 0 5em 0 5em;
+    padding: 0 5em 0 5em;
 }
 
 #workskin .book {
-	margin: 0 auto;
-	text-indent: 3em;
+    margin: 0 auto;
+    text-indent: 3em;
 }
 
 #workskin .dropcap {
-	font-family: Bookerly, Literata, "Noto Serif", -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
-	font-size: 3em;
+    font-family: Bookerly, Literata, "Noto Serif", -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
+    font-size: 3em;
 }
 
 #workskin .flashback {
-	font-style: italic;
+    font-style: italic;
 }
 
 #workskin .caps {
-	font-variant: small-caps;
+    font-variant: small-caps;
 }
 
 #workskin .spoiler {
-	background: #333;
-	color: #333;
+    background: #333;
+    color: #333;
 }
 
 #workskin .border {
-	border: 1px solid;
+    border: 1px solid;
 }
 
 /* Order: E-Reader (Kindle, Google Books), Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-serif {
-	font-family: Bookerly, Literata, "Noto Serif", -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
+    font-family: Bookerly, Literata, "Noto Serif", -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 }
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-sansserif {
-	font-family: "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-monospace {
-	font-family: "Noto Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Consolas, "Courier New", Courier, monospace;
+    font-family: "Noto Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Consolas, "Courier New", Courier, monospace;
 }
 
 #workskin .font-big {
-	font-size: 120%;
+    font-size: 120%;
 }
 
 #workskin .font-small {
-	font-size: 80%;
+    font-size: 80%;
 }
 
 #workskin .align-right {
-	text-align: right;
+    text-align: right;
 }
 
 #workskin .align-center {
-	text-align: center;
+    text-align: center;
 }
 
 #workskin .align-justify {
-	text-align: justify;
+    text-align: justify;
 }
 
 #workskin hr.third {
-	width: 33%;
-	margin: auto;
+    width: 33%;
+    margin: auto;
 }
 
 #workskin hr.full {
-	width: auto;
-	margin: auto;
+    width: auto;
+    margin: auto;
 }
 
 /*
@@ -85,7 +85,7 @@ Light theme:	#e53935
 Dark theme:		#f07178
 */
 #workskin .font-red {
-	color: #f07178;
+    color: #f07178;
 }
 
 /*
@@ -93,7 +93,7 @@ Light theme:	#f76d47
 Dark theme:		#f78c6c
 */
 #workskin .font-orange {
-	color: #f78c6c;
+    color: #f78c6c;
 }
 
 /*
@@ -101,7 +101,7 @@ Light theme:	#f6a434
 Dark theme:		#ffcb6b
 */
 #workskin .font-yellow {
-	color: #ffcb6b;
+    color: #ffcb6b;
 }
 
 /*
@@ -109,7 +109,7 @@ Light theme:	#91b859
 Dark theme:		#c3e88d
 */
 #workskin .font-green {
-	color: #c3e88d;
+    color: #c3e88d;
 }
 
 /*
@@ -117,7 +117,7 @@ Light theme:	#6182b8
 Dark theme:		#82aaff
 */
 #workskin .font-blue {
-	color: #82aaff;
+    color: #82aaff;
 }
 
 /*
@@ -125,15 +125,15 @@ Light theme:	#7c4dff
 Dark theme:		#c792ea
 */
 #workskin .font-purple {
-	color: #c792ea;
+    color: #c792ea;
 }
 
 #workskin .font-white {
-	color: #eeffff;
+    color: #eeffff;
 }
 
 #workskin .font-black {
-	color: #272727;
+    color: #272727;
 }
 
 /*
@@ -141,7 +141,7 @@ Light theme:	#d81b60
 Dark theme:		#f48fb1
 */
 #workskin .font-pink {
-	color: #f48fb1;
+    color: #f48fb1;
 }
 
 /*
@@ -149,81 +149,81 @@ Light theme:	#00897b
 Dark theme:		#80cbc4
 */
 #workskin .font-teal {
-	color: #80cbc4;
+    color: #80cbc4;
 }
 
 #workskin .font-redbrown {
-	color: #a15000;
+    color: #a15000;
 }
 
 #workskin .font-cherryred {
-	color: #e00707;
+    color: #e00707;
 }
 
 #workskin .font-brickred {
-	color: #a10000;
+    color: #a10000;
 }
 
 #workskin .font-dimorange {
-	color: #f2a400;
+    color: #f2a400;
 }
 
 #workskin .font-murkyyellow {
-	color: #a1a100;
+    color: #a1a100;
 }
 
 #workskin .font-jade {
-	color: #4ac925;
+    color: #4ac925;
 }
 
 #workskin .font-dimgreen {
-	color: #008141;
+    color: #008141;
 }
 
 #workskin .font-leafgreen {
-	color: #1f9400;
+    color: #1f9400;
 }
 
 #workskin .font-darkolive {
-	color: #416600;
+    color: #416600;
 }
 
 #workskin .font-dimblue {
-	color: #005682;
+    color: #005682;
 }
 
 #workskin .font-midblue {
-	color: #0715cd;
+    color: #0715cd;
 }
 
 #workskin .font-mediumskyblue {
-	color: #00d5f2;
+    color: #00d5f2;
 }
 
 #workskin .font-darknavy {
-	color: #000056;
+    color: #000056;
 }
 
 #workskin .font-lightpurple {
-	color: #f141ef;
+    color: #f141ef;
 }
 
 #workskin .font-midviolet {
-	color: #b536da;
+    color: #b536da;
 }
 
 #workskin .font-verydarkpurple {
-	color: #2b0057;
+    color: #2b0057;
 }
 
 #workskin .font-darkplum {
-	color: #6a006a;
+    color: #6a006a;
 }
 
 #workskin .font-darkmaroon {
-	color: #77003c;
+    color: #77003c;
 }
 
 #workskin .font-reallydarkgray {
-	color: #626262;
+    color: #626262;
 }

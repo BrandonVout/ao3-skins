@@ -12,36 +12,36 @@ Add extra "\a" to content properties to add blank line between bylines.
 */
 
 ul.tags {
-	padding-top: 0.5em;
+    padding-top: 0.5em;
 }
 
 ul.tags li.warnings:first-child:before {
-	color: inherit;
-	content: "Archive Warnings: ";
-	font-weight: bold;
-	white-space: pre;
+    color: inherit;
+    content: "Archive Warnings: ";
+    font-weight: bold;
+    white-space: pre;
 }
 
 li.warnings + li.relationships:before {
-	color: inherit;
-	content: "\a Relationships: ";
-	font-weight: bold;
-	white-space: pre;
+    color: inherit;
+    content: "\a Relationships: ";
+    font-weight: bold;
+    white-space: pre;
 }
 
 li.warnings + li.characters:before,
 li.relationships + li.characters:before {
-	color: inherit;
-	content: "\a Characters: ";
-	font-weight: bold;
-	white-space: pre;
+    color: inherit;
+    content: "\a Characters: ";
+    font-weight: bold;
+    white-space: pre;
 }
 
 li.warnings + li.freeforms:before,
 li.relationships + li.freeforms:before,
 li.characters + li.freeforms:before {
-	color: inherit;
-	content: "\a Tags: ";
-	font-weight: bold;
-	white-space: pre;
+    color: inherit;
+    content: "\a Tags: ";
+    font-weight: bold;
+    white-space: pre;
 }
