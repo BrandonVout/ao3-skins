@@ -7,7 +7,7 @@ root = true
 [*]
 indent_style = space
 indent_size = 4
-tab_width = 4
+# tab_width = 4
 end_of_line = lf
 charset = utf-8
 spelling_language = en-US
@@ -17,6 +17,11 @@ insert_final_newline = true
 # limited support among editors
 # force hard line wrapping
 max_line_length = 160
+
+# Documentation files
+[*.{txt,md,MD,markdown,MARKDOWN,rst,RST,asciidoc,adoc,ADOC}]
+indent_style = space
+trim_trailing_whitespace = false
 
 # go
 [*.go]
