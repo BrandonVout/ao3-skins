@@ -5,15 +5,29 @@ root = true
 
 # all files
 [*]
-indent_style = tab
-# indent_size = 2
-# tab_width = 2
-charset = utf-8
-trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+tab_width = 4
 end_of_line = lf
+charset = utf-8
+spelling_language = en-US
+trim_trailing_whitespace = true
 insert_final_newline = true
+
+# limited support among editors
+# force hard line wrapping
 max_line_length = 160
 
-# markdown files
-[*.md]
-trim_trailing_whitespace = false
+# go
+[*.go]
+indent_style = tab
+
+# python
+[*.py]
+indent_style = space
+indent_size = 4
+
+# yaml
+[*.yml]
+indent_style = space
+indent_size = 2
