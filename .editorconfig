@@ -19,7 +19,7 @@ insert_final_newline = true
 max_line_length = 160
 
 # Documentation files
-[*.{txt,md,MD,markdown,MARKDOWN,rst,RST,asciidoc,adoc,ADOC}]
+[*.{txt,TXT,md,MD,markdown,MARKDOWN,rst,RST,asciidoc,adoc,ADOC}]
 indent_style = space
 indent_size = 2
 trim_trailing_whitespace = false
@@ -34,6 +34,6 @@ indent_style = space
 indent_size = 4
 
 # yaml
-[*.yml]
+[*.{yml,yaml}]
 indent_style = space
 indent_size = 2
