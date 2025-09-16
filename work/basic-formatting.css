@@ -35,19 +35,19 @@ Adapted from 'Basic Formatting skin' by AO3, https://archiveofourown.org/skins/2
     border: 1px solid;
 }
 
-/* Order: E-Reader (Kindle, Google Books), Linux, Android, macOS/iOS, Windows, web safe, browser default */
+/* Order: E-Reader (Kindle, Google Books), Linux/Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-serif {
     font-family: Bookerly, Literata, "Noto Serif", -apple-system-ui-serif, ui-serif, Georgia, Palatino, serif;
 }
 
-/* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
+/* Order: Preferred, Linux/Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-sansserif {
-    font-family: "Noto Sans", "Open Sans", Ubuntu, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Adwaita Sans", Inter, "Noto Sans", -apple-system, system-ui, BlinkMacSystemFont, Arial, sans-serif;
 }
 
-/* Order: Preferred, Linux, Android, macOS/iOS, Windows, web safe, browser default */
+/* Order: Preferred, Linux/Android, macOS/iOS, Windows, web safe, browser default */
 #workskin .font-monospace {
-    font-family: "Noto Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Consolas, "Courier New", Courier, monospace;
+    font-family: "Adwaita Mono", "Noto Mono", ui-monospace, Consolas, "Courier New", Courier, monospace;
 }
 
 #workskin .font-big {

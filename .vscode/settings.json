@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
+        "Adwaita",
         "brickred",
         "cherryred",
         "Colour",
@@ -17,6 +18,7 @@
         "midblue",
         "midviolet",
         "murkyyellow",
+        "Noto",
         "reallydarkgray",
         "redbrown",
         "Robb",
@@ -25,6 +27,5 @@
         "userstuff",
         "verydarkpurple",
         "workskin"
-    ],
-    "iis.configDir": ""
+    ]
 }
