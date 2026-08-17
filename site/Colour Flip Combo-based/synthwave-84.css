@@ -41,7 +41,10 @@ Header Color: #f97e72
 
 .mtk6 {
     color: #f92aad;
-    text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+    text-shadow:
+        0 0 2px #100c0f,
+        0 0 5px #dc078e33,
+        0 0 10px #fff3;
 }
 
 .mtk3 {
@@ -54,24 +57,38 @@ Header Color: #f97e72
 
 .mtk10 {
     color: #fdfdfd;
-    text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
+    text-shadow:
+        0 0 2px #001716,
+        0 0 3px #03edf975,
+        0 0 5px #03edf975,
+        0 0 8px #03edf975;
 }
 
 .mtk7,
 .mtk9 {
     color: #fff5f6;
-    text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;
+    text-shadow:
+        0 0 2px #000,
+        0 0 10px #fc1f2c75,
+        0 0 5px #fc1f2c75,
+        0 0 25px #fc1f2c75;
 }
 
 .mtk11 {
     color: #72f1b8;
-    text-shadow: 0 0 2px #100c0f, 0 0 10px #257c5575, 0 0 35px #21272475;
+    text-shadow:
+        0 0 2px #100c0f,
+        0 0 10px #257c5575,
+        0 0 35px #21272475;
 }
 
 .mtk8,
 .mtk14 {
     color: #f4eee4;
-    text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+    text-shadow:
+        0 0 2px #393a33,
+        0 0 8px #f39f0575,
+        0 0 2px #f39f0575;
 }
 
 /*
@@ -208,7 +225,10 @@ Nav Menu Link Text Color
 #header .primary a,
 #header h2 {
     color: #f92aad;
-    text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+    text-shadow:
+        0 0 2px #100c0f,
+        0 0 5px #dc078e33,
+        0 0 10px #fff3;
 }
 
 /*
@@ -220,7 +240,11 @@ Footer Link Text Color
 #footer a,
 #footer .heading {
     color: #fdfdfd;
-    text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
+    text-shadow:
+        0 0 2px #001716,
+        0 0 3px #03edf975,
+        0 0 5px #03edf975,
+        0 0 8px #03edf975;
 }
 
 /*
@@ -273,7 +297,11 @@ li.relationships a {
     background: #2a2737;
     /* color: #848bbd; */
     color: #fff5f6;
-    text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;
+    text-shadow:
+        0 0 2px #000,
+        0 0 10px #fc1f2c75,
+        0 0 5px #fc1f2c75,
+        0 0 25px #fc1f2c75;
 }
 
 /*
@@ -398,7 +426,10 @@ a:visited,
 a.cloud6 {
     /* color: #848bbd; */
     color: #72f1b8;
-    text-shadow: 0 0 2px #100c0f, 0 0 10px #257c5575, 0 0 35px #21272475;
+    text-shadow:
+        0 0 2px #100c0f,
+        0 0 10px #257c5575,
+        0 0 35px #21272475;
 }
 
 /*
@@ -675,7 +706,10 @@ a.cloud1,
 a.cloud2 {
     color: #f97e72;
     /* text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3; */
-    text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+    text-shadow:
+        0 0 2px #393a33,
+        0 0 8px #f39f0575,
+        0 0 2px #f39f0575;
 }
 
 /*
@@ -687,7 +721,10 @@ a.tag,
 .tags a {
     /* color: #848bbd; */
     color: #f4eee4;
-    text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+    text-shadow:
+        0 0 2px #393a33,
+        0 0 8px #f39f0575,
+        0 0 2px #f39f0575;
 }
 
 /*
@@ -699,7 +736,10 @@ a.tag:visited,
 .tags a:visited {
     /* color: #848bbd; */
     color: #72f1b8;
-    text-shadow: 0 0 2px #100c0f, 0 0 10px #257c5575, 0 0 35px #21272475;
+    text-shadow:
+        0 0 2px #100c0f,
+        0 0 10px #257c5575,
+        0 0 35px #21272475;
 }
 
 /*
@@ -710,7 +750,10 @@ Visited Link Hover
 a:visited:hover {
     /* color: #ffffff; */
     color: #f92aad;
-    text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+    text-shadow:
+        0 0 2px #100c0f,
+        0 0 5px #dc078e33,
+        0 0 10px #fff3;
 }
 
 /*
@@ -720,7 +763,11 @@ Visited Tag Hover
 */
 a.tag:visited:hover {
     color: #fff5f6;
-    text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;
+    text-shadow:
+        0 0 2px #000,
+        0 0 10px #fc1f2c75,
+        0 0 5px #fc1f2c75,
+        0 0 25px #fc1f2c75;
 }
 
 /*
@@ -756,7 +803,11 @@ li.selected,
 a.tag:hover {
     background: #2a2737;
     color: #fdfdfd;
-    text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
+    text-shadow:
+        0 0 2px #001716,
+        0 0 3px #03edf975,
+        0 0 5px #03edf975,
+        0 0 8px #03edf975;
 }
 
 #dashboard {
@@ -805,7 +856,10 @@ a.cloud7,
 a.cloud8 {
     color: #f97e72;
     /* text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3; */
-    text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+    text-shadow:
+        0 0 2px #393a33,
+        0 0 8px #f39f0575,
+        0 0 2px #f39f0575;
 }
 
 /*
@@ -899,6 +953,7 @@ button,
 .actions label,
 #outer.wrapper,
 #inner.wrapper,
+#work-skin.wrapper,
 dl.index,
 dl.stats,
 .listbox,
@@ -944,20 +999,29 @@ Based on Byline redone by EliotWL
 ul.tags li.warnings:first-child:before {
     color: #f97e72;
     /* text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3; */
-    text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+    text-shadow:
+        0 0 2px #393a33,
+        0 0 8px #f39f0575,
+        0 0 2px #f39f0575;
 }
 
 li.warnings + li.relationships:before {
     color: #f97e72;
     /* text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3; */
-    text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+    text-shadow:
+        0 0 2px #393a33,
+        0 0 8px #f39f0575,
+        0 0 2px #f39f0575;
 }
 
 li.warnings + li.characters:before,
 li.relationships + li.characters:before {
     color: #f97e72;
     /* text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3; */
-    text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+    text-shadow:
+        0 0 2px #393a33,
+        0 0 8px #f39f0575,
+        0 0 2px #f39f0575;
 }
 
 li.warnings + li.freeforms:before,
@@ -965,5 +1029,8 @@ li.relationships + li.freeforms:before,
 li.characters + li.freeforms:before {
     color: #f97e72;
     /* text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3; */
-    text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+    text-shadow:
+        0 0 2px #393a33,
+        0 0 8px #f39f0575,
+        0 0 2px #f39f0575;
 }
